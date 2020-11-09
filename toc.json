@@ -226,6 +226,11 @@
           "uri": "docs/Using the Platform/Tests/Tests.md"
         }
       ]
+    },
+    {
+      "type": "item",
+      "title": "mvp-API",
+      "uri": "PF-API.v1.json"
     }
   ]
 }
