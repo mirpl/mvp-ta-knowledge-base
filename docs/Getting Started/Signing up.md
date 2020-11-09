@@ -6,7 +6,7 @@ The user receives an email with an invitation and token (CTA) and clicks the lin
 <!-- theme: warning -->
 >💡 **Remember**, the invitation link is valid for an unlimited period of time.
 
-![logup](../../assets/images/Logowanie.jpg)
+![logup](../../assets/images/Image1.png)
 
 ### Login & Password sign up
 When the user provides passwords and clicks 'Sign up' the profile is created.
