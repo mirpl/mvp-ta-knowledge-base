@@ -1,0 +1,231 @@
+{
+  "items": [
+    {
+      "type": "divider",
+      "title": "Getting Started"
+    },
+    {
+      "type": "item",
+      "title": "Creating the account",
+      "uri": "docs/Getting Started/Creating the account.md"
+    },
+    {
+      "type": "item",
+      "title": "Signing up",
+      "uri": "docs/Getting Started/Signing up.md"
+    },
+    {
+      "type": "item",
+      "title": "Supported-Technologies",
+      "uri": "docs/Getting Started/Supported Technologies.md"
+    },
+    {
+      "type": "item",
+      "title": "Users and Roles",
+      "uri": "docs/Getting Started/Users and Roles.md"
+    },
+    {
+      "type": "divider",
+      "title": "Scripts"
+    },
+    {
+      "type": "item",
+      "title": "Puppeteer",
+      "uri": "docs/Scripts/Puppeteer.md"
+    },
+    {
+      "type": "item",
+      "title": "Scripts",
+      "uri": "docs/Scripts/Scripts.md"
+    },
+    {
+      "type": "item",
+      "title": "Selenium on Chrome (.NET)",
+      "uri": "docs/Scripts/Selenium on Chrome (.NET).md"
+    },
+    {
+      "type": "item",
+      "title": "Selenium on Chrome (Java 8, JUnit)",
+      "uri": "docs/Scripts/Selenium on Chrome (Java 8, JUnit).md"
+    },
+    {
+      "type": "item",
+      "title": "Selenium-on-Chrome",
+      "uri": "docs/Scripts/Selenium on Chrome.md"
+    },
+    {
+      "type": "divider",
+      "title": "Using the Platform"
+    },
+    {
+      "type": "group",
+      "title": "Business Logic",
+      "items": [
+        {
+          "type": "item",
+          "title": "Business Logic",
+          "uri": "docs/Using the Platform/Business Logic/Business Logic.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Dashboards",
+      "items": [
+        {
+          "type": "item",
+          "title": "Dashboard",
+          "uri": "docs/Using the Platform/Dashboards/Dashboard.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Files",
+      "items": [
+        {
+          "type": "item",
+          "title": "Files",
+          "uri": "docs/Using the Platform/Files/Files.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Global Arguments",
+      "items": [
+        {
+          "type": "item",
+          "title": "Global Arguments",
+          "uri": "docs/Using the Platform/Global Arguments/Global-Arguments.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Jobs",
+      "items": [
+        {
+          "type": "item",
+          "title": "Create a New Job",
+          "uri": "docs/Using the Platform/Jobs/Create a New Job.md"
+        },
+        {
+          "type": "item",
+          "title": "Errors",
+          "uri": "docs/Using the Platform/Jobs/Errors.md"
+        },
+        {
+          "type": "item",
+          "title": "Job-Details",
+          "uri": "docs/Using the Platform/Jobs/Job-Details.md"
+        },
+        {
+          "type": "item",
+          "title": "Jobs",
+          "uri": "docs/Using the Platform/Jobs/Jobs.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Onboarding",
+      "items": [
+        {
+          "type": "item",
+          "title": "PF-Onboarding",
+          "uri": "docs/Using the Platform/Onboarding/Onboarding.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Schedule",
+      "items": [
+        {
+          "type": "item",
+          "title": "Schedule",
+          "uri": "docs/Using the Platform/Schedule/Schedule.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Settings",
+      "items": [
+        {
+          "type": "item",
+          "title": "Access Token",
+          "uri": "docs/Using the Platform/Settings/Access Token.md"
+        },
+        {
+          "type": "item",
+          "title": "Application-Settings",
+          "uri": "docs/Using the Platform/Settings/Application-Settings.md"
+        },
+        {
+          "type": "item",
+          "title": "Repositories",
+          "uri": "docs/Using the Platform/Settings/Repositories.md"
+        },
+        {
+          "type": "item",
+          "title": "Users",
+          "uri": "docs/Using the Platform/Settings/Users.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Test Plan",
+      "items": [
+        {
+          "type": "item",
+          "title": "Creating the Test Plan",
+          "uri": "docs/Using the Platform/Test Plan/Creating the Test Plan.md"
+        },
+        {
+          "type": "item",
+          "title": "Edit Test Plan",
+          "uri": "docs/Using the Platform/Test Plan/Edit Test Plan.md"
+        },
+        {
+          "type": "item",
+          "title": "Test Plan Details (navigation)",
+          "uri": "docs/Using the Platform/Test Plan/Test Plan Details (navigation).md"
+        },
+        {
+          "type": "item",
+          "title": "Test Plan",
+          "uri": "docs/Using the Platform/Test Plan/Test Plan.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Tests",
+      "items": [
+        {
+          "type": "item",
+          "title": "Creating-the-Process",
+          "uri": "docs/Using the Platform/Tests/Creating the Test.md"
+        },
+        {
+          "type": "item",
+          "title": "List of Processes (navigation)",
+          "uri": "docs/Using the Platform/Tests/List of Tests (navigation).md"
+        },
+        {
+          "type": "item",
+          "title": "Test Details",
+          "uri": "docs/Using the Platform/Tests/Test Details.md"
+        },
+        {
+          "type": "item",
+          "title": "Tests",
+          "uri": "docs/Using the Platform/Tests/Tests.md"
+        }
+      ]
+    }
+  ]
+}
