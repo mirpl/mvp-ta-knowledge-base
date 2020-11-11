@@ -7,3 +7,5 @@ As the User with the Admin role you can create new users within existing custome
 - role
 
 How the process goes, depicts the below diagram:
+
+![log](../../assets/images/Image1.png)
