@@ -10,6 +10,7 @@ Next, you need to enter the following data:
 - email
 - password
 - password confirmation
-- The company name will be checked for uniqueness (public lookup) and if the name is available it will be registered in the application. 
+
+The company name will be checked for uniqueness (public lookup) and if the name is available it will be registered in the application. 
 
 After all that is done, you are logged in and can use the platform.
