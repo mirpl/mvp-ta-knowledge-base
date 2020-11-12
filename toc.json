@@ -28,15 +28,15 @@
       "type": "divider",
       "title": "Scripts"
     },
+    {"type": "item",
+      "title": "Scripts",
+      "uri": "docs/Scripts/Scripts.md"
+    },
+    
     {
       "type": "item",
       "title": "Puppeteer",
       "uri": "docs/Scripts/Puppeteer.md"
-    },
-    {
-      "type": "item",
-      "title": "Scripts",
-      "uri": "docs/Scripts/Scripts.md"
     },
     {
       "type": "item",
