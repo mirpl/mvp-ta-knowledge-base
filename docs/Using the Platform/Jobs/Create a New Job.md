@@ -1,6 +1,6 @@
 # Create a New Job
 
-There are two ways of creating a new Job.
+There are two ways of creating a new Job. 
 First, find the ‘Create Job’ button on the Workflows list, next to every Workflow.
 Second, open Workflow’s details and find the ‘Create Job’ button in the top right corner of the page. 
 Clicking the ‘Create Job’ button will open the form to fill in.
