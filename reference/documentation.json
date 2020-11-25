@@ -26,7 +26,7 @@
         "description": "Create new job",
         "responses": {
           "200": {
-            "description": "Success will return jobID newly created job",
+            "description": "Success will return jobID of newly created job",
             "content": {
               "application/json": {
                 "schema": {
