@@ -1,32 +1,32 @@
 # Create a New Job
 
 There are two ways of creating a new Job. 
-First, find the ‘Create Job’ button on the Workflows list, next to every Workflow.
-Second, open Workflow’s details and find the ‘Create Job’ button in the top right corner of the page. 
+First, find the ‘Create Job’ button on the Test Plan list, next to every Test Plan.
+Second, open Test Plan's details and find the ‘Create Job’ button in the top right corner of the page. 
 Clicking the ‘Create Job’ button will open the form to fill in.
 
 <!-- theme: warning -->
->💡 **Remember**, if the button is unclickable, the Processes were not added to the Workflow yet.
+>💡 **Remember**, if the button is unclickable, the Tests were not added to the Test Plan yet.
 
 <!-- theme: info -->
->💡 **Notice**, you can return to the added Process details page by clicking the ‘Go to Process’ button. 
+>💡 **Notice**, you can return to the added Test details page by clicking the ‘Go to Test' button. 
 
 Filling in the ‘Create New Job’ form consists of four steps. A separate form and graphic pointer outline each of them:
 
-### Choose Versions of the Processes
+### Choose Versions of the Test
 
-The form of choosing the Process Version displays every Process added to the Workflow. For each of them, select branch along with commit you want to use for this Job.
+The form of choosing the Test Version displays every Test added to the Test Plan. For each of them, select branch along with commit you want to use for this Job.
 
 <!-- theme: warning -->
->💡 **Remember**, if there were no commits in the Process, you cannot select Branch and Commit.
+>💡 **Remember**, if there were no commits in the Test, you cannot select Branch and Commit.
 
 Next, select the Tag  and Commit hash 💬. 
 
 <!-- theme: info -->
->💡 **Notice**, choosing both Tags and Commit hash is optional for every Process.
+>💡 **Notice**, choosing both Tags and Commit hash is optional for every Test.
 
 >💬 Definition alert! 🔔
-**Commit hash** - the code version used by the Process
+**Commit hash** - the code version used by the Test
 
 
 ### Choose Arguments Collections
@@ -40,7 +40,7 @@ In the second step, choose Global Arguments 💬 you want to add to this Job, an
 **Global Arguments** - sets of values with names you can predefine globally and use when executing a set of tests (such as environment URLs or login credentials).
 ### Define Arguments Values
 
-In the third step, you can edit the Local Arguments you added while creating the Processes. They will be used for this Job execution.
+In the third step, you can edit the Local Arguments you added while creating the Tests. They will be used for this Job execution.
 
 <!-- theme: warning -->
 >💡  **Remember**, if you set Global Arguments in the previous step, they will be overriding for the Local Arguments.
