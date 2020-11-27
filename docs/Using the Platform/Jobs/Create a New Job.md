@@ -57,7 +57,7 @@ Trigger - an instruction to execute scripts on defined date and time.
 #### Create Job Immediately 
 That’s straight forward action - the Job will be executed right away after clicking the ‘Create Job’ button. 
 The form will be shut down and you will see the window confirming creating New Job with its ID number and two buttons:
-‘Go back to the Workflow/List’ - reopens the Workflow/List view (depends on which view you started creating Job with - Workflow or List); 
+‘Go back to the Test Plan/List’ - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
 ‘Go to the Jobs Details’ - takes you back to the Job detail view.
 
 >💡  **Notice**, the time to build a new job depends on whether the virtual machines are ready or need to be created; the time bar will be informing you of the progress.
@@ -79,7 +79,7 @@ In case you wish to repeat the Job, choose the option ‘Daily’, ‘Weekly’,
 All setup? Do not hesitate then and click the ‘Create Trigger’ button 👆
 
 The form will be shut down and you will see the window confirming creating New Job with the Trigger’s ID number, Job’s name, schedule details, and two buttons:
-‘Go back to the Workflow/List’ - reopens the Workflow/List view (depends on which view you started creating Job with - Workflow or List); 
+‘Go back to the Test Plan/List’ - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
 ‘Go to the Trigger Details’ - takes you back to the Job detail view.
 
 <!-- theme: info -->
