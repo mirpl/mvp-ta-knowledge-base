@@ -1,3 +1,6 @@
-# Application-Settings
+# Application Settings
 
-The beginning of an awesome article...
+This is the space where you can integrate external platforms with PowerFarm and check the status of your billing plan.
+
+## Integrations
+
