@@ -21,7 +21,7 @@ The page with the Job containing Parallel Test Plan or Sequential Test Plan allo
 - Input parameters - Name & Value
 - Generated files 
 - Screenshots
-- Test Plan information - ‘Type’ & ‘Created by’, along with the ‘Go to workflow’ link, moving the user to the Workflow page.
+- Test Plan information - ‘Type’ & ‘Created by’, along with the ‘Go to Test Plan' link, moving the user to the Test Plan page.
 - The ‘Return Job’ button - 
 - Go to Trigger
 

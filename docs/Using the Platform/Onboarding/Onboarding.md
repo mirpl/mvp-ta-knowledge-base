@@ -6,7 +6,7 @@ Everything good and exciting about PowerFarm starts with creating the new Test �
 
 
 >**💬 Definition alert!** 🔔
-Test - Single test script that can work on its own and perform one task. It can be combined with other scripts to create the whole scenario of the test case.
+**Test** - Single test script that can work on its own and perform one task. It can be combined with other scripts to create the whole scenario of the test case.
 
 First, select the ‘Tests’ button on the left side of the screen and click the ‘Create New Test’ button on the top right corner. 
 It doesn’t sound complicated, right? 😎
@@ -14,7 +14,7 @@ It doesn’t sound complicated, right? 😎
 Now, fill the displayed form.
 Name your Test, and do it wisely, so that you and other users could find it easily later. 
 
-> 💡 Remember, you can use all kinds of letters and signs along with spaces while entering the Test name.
+> 💡 **Remember**, you can use all kinds of letters and signs along with spaces while entering the Test name.
 
 Add the Test description. 
 
