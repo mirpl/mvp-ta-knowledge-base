@@ -70,6 +70,17 @@
     },
     {
       "type": "group",
+      "title": "Onboarding",
+      "items": [
+        {
+          "type": "item",
+          "title": "PF-Onboarding",
+          "uri": "docs/Using the Platform/Onboarding/Onboarding.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
       "title": "Dashboards",
       "items": [
         {
@@ -107,14 +118,15 @@
       "items": [
         {
           "type": "item",
-          "title": "Create a New Job",
-          "uri": "docs/Using the Platform/Jobs/Create a New Job.md"
+          "title": "Jobs",
+          "uri": "docs/Using the Platform/Jobs/Jobs.md"
         },
         {
           "type": "item",
-          "title": "Errors",
-          "uri": "docs/Using the Platform/Jobs/Errors.md"
+          "title": "Create a New Job",
+          "uri": "docs/Using the Platform/Jobs/Create a New Job.md"
         },
+        
         {
           "type": "item",
           "title": "Job-Details",
@@ -122,22 +134,12 @@
         },
         {
           "type": "item",
-          "title": "Jobs",
-          "uri": "docs/Using the Platform/Jobs/Jobs.md"
-        }
+          "title": "Errors",
+          "uri": "docs/Using the Platform/Jobs/Errors.md"
+        }       
       ]
     },
-    {
-      "type": "group",
-      "title": "Onboarding",
-      "items": [
-        {
-          "type": "item",
-          "title": "PF-Onboarding",
-          "uri": "docs/Using the Platform/Onboarding/Onboarding.md"
-        }
-      ]
-    },
+    
     {
       "type": "group",
       "title": "Schedule",

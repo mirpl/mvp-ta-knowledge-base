@@ -11,8 +11,8 @@ Go to the Jobs list and check out what it displays.
 
 If you want to see more detailed info about the Job, click on the ID of the selected one. 
 
-The page with the Job containing Parallel Workflow or Sequential Workflow allows you to check the following details you didn’t have access to from the list page:
-- Process name - along with the link (Parallel Workflow) or the ‘Show Results’ button (Sequential Workflow) opening the window displaying the results of the Process execution:
+The page with the Job containing Parallel Test Plan or Sequential Test Plan allows you to check the following details you didn’t have access to from the list page:
+- Test name - along with the link (Parallel Test Plan) or the ‘Show Results’ button (Sequential Test Plan) opening the window displaying the results of the Test execution:
 - Status
 - Start Date
 - End Date
@@ -21,12 +21,12 @@ The page with the Job containing Parallel Workflow or Sequential Workflow allows
 - Input parameters - Name & Value
 - Generated files 
 - Screenshots
-- Workflow information - ‘Type’ & ‘Created by’, along with the ‘Go to workflow’ link, moving the user to the Workflow page.
+- Test Plan information - ‘Type’ & ‘Created by’, along with the ‘Go to workflow’ link, moving the user to the Workflow page.
 - The ‘Return Job’ button - 
 - Go to Trigger
 
 <!-- theme: info -->
->💡 **Notice** the difference between the way of displaying the Parallel and Sequential Workflows.
+>💡 **Notice** the difference between the way of displaying the Parallel and Sequential Test Plan.
 
 ### Statuses
 Now, let’s look closely at the statuses, and what they really mean. 👀
@@ -38,13 +38,13 @@ Now, let’s look closely at the statuses, and what they really mean. 👀
 
  When the Job is canceled by the user before it starts execution.
 
- When at least one connected Process is pending (and others can be created).
+ When at least one connected Test is pending (and others can be created).
 
- When one of the Processes cannot be built, or the order cannot be submitted to the queue 😟. When you go to check the results, you will see the respective info in the ‘Output’ window. 
+ When one of the Tests cannot be built, or the order cannot be submitted to the queue 😟. When you go to check the results, you will see the respective info in the ‘Output’ window. 
 
  When a robot could not be built.
 
-  When at least one Process is currently running
+  When at least one Test is currently running
 
  When the execution of this Job succeeded 😀. When you go to see the results, you will see the respective info in the ‘Output’ window.
 
