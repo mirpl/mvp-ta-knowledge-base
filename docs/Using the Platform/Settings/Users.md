@@ -1,6 +1,6 @@
 # Users
 
-As an Admin you can create new users to the Platform. This process is described in chapter Users and Roles [link].
+As an Admin you can create new users to the Platform. This process is described in chapter Users and [Roles](../../Getting Started/Users and Roles.md).
 
 <!-- theme: warning -->
 >💡 **Remember**, the option of adding new users is available for Admins only.

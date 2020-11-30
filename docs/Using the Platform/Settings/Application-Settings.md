@@ -4,3 +4,7 @@ This is the space where you can integrate external platforms with PowerFarm and 
 
 ## Integrations
 
+
+
+## Billings and Plans
+
