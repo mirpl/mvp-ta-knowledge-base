@@ -1,6 +1,6 @@
-# PF-Onboarding
+# Onboarding
 
-# Tests
+## Tests
 
 Everything good and exciting about PowerFarm starts with creating the new Test 💬. 
 
@@ -18,13 +18,13 @@ Name your Test, and do it wisely, so that you and other users could find it easi
 
 Add the Test description. 
 
-💡 Although it is an optional action, we recommend you to fill this space, too; it will make navigating on the list of all Tests easier both for you and other users. 
+> 💡 Although it is an optional action, we **recommend** you to fill this space, too; it will make navigating on the list of all Tests easier both for you and other users. 
 
 Select technology: just drop-down the list of technologies in which you wrote your test script and click the one you need. 
 
 Now, select one of the script directories - also accessible on the drop-down list - and enter the path to the script you want to use in this Process.
  
-💡 Remember that you can add a new repository by the Settings menu. 
+> 💡 **Remember** that you can add a new repository by the Settings menu. 
 
 Are you absolutely sure entered data is just as you like it? If so, don’t hesitate to click the ‘Create new Test’ button. 
 
@@ -46,22 +46,22 @@ Now you can see the commits notification in Test details and continue your work.
 
 It’s time to add Local Arguments 💬 to your Test by clicking the ‘Add Local Arguments’ button and filling the form displayed on the screen. Enter the Argument name and the Default value, and click the ‘Save’ button or dismiss this action clicking the ‘Close’ button. You can add as many Arguments as you wish and the list of all Arguments will be visible in the Test details. 
 
-💬 Definition alert! 🔔
-Local arguments - defined values with a name your test can use when executing, assign to every single script.
+> 💬 **Definition alert!** 🔔
+**Local arguments** - defined values with a name your test can use when executing, assign to every single script.
 
-# Test Plans
+## Test Plans
 
 Creating the Test Plan 💬  is another step in your adventure with PowerFarm. And it’s not a complicated operation either.
 
-💬 Definition alert! 🔔
-Test Plan - Set of scripts that can be executed in a sequence or simultaneously without any dependencies. 
+> 💬 **Definition alert!** 🔔
+**Test Plan** - Set of scripts that can be executed in a sequence or simultaneously without any dependencies. 
 
 
 Click the ‘Create new Test Plan' button on the top right corner of the screen to display the form to fill. 
 
 For now, you only provide the Test Plan’s name, an optional description, and choose a Parallel💬  or Sequential💬  checkbox. Once you click the ‘Save’ button, your new Test Plan will appear on the list. 
 
-💡 We recommend creating both Parallel and Sequential Test Plans to practice the following steps.
+> 💡 We **recommend** creating both Parallel and Sequential Test Plans to practice the following steps.
 
 
 💬 Definition alert! 🔔
@@ -83,13 +83,13 @@ In case you need to edit the Workflow, click the ‘Edit Flow’ button.
 Excellent! Give yourself pat on the back and keep on. 👊
 
 
-# Jobs
+## Jobs
 You now know how to create Tests and Test Plans, but to start the actual experience of Test Automation, you need to create the Job 💬.
 
 💬 Definition alert! 🔔
 Job - Execution of a Test Plan.
 
-## Create a new job
+### Create a new job
 
 There are two ways of creating a new Job.
 First, find the ‘Create Job’ button on the Test Plan list, next to every Test Plan.
@@ -102,7 +102,7 @@ Clicking the ‘Create Job’ button will open the form to fill in.
 
 Filling in the ‘Create New Job’ form consists of four steps. A separate form and graphic pointer outline each of them:
 
-## Choose Versions of the Tests
+### Choose Versions of the Tests
 
 The form of choosing the Test Version displays every Test added to the Test Plan. For each of them, select branch along with commit you want to use for this Job.
 
@@ -116,7 +116,7 @@ Next, select the Tag and Commit hash 💬.
 Commit hash - the code version used by the Test.
 
 
-## Choose Arguments Collections
+### Choose Arguments Collections
 
 In the second step, choose Global Arguments 💬 you want to add to this Job, and click the ‘Save and go to Arguments’ button. 
 
@@ -125,13 +125,13 @@ In the second step, choose Global Arguments 💬 you want to add to this Job, an
 💬 Definition alert! 🔔
 Global Arguments - sets of values with names you can predefine globally and use when executing a set of tests (such as environment URLs or login credentials).
 
-## Define Arguments Values
+### Define Arguments Values
 
 In the third step, you can edit the Local Arguments you added while creating the Tests. They will be used for this Job execution.
 
 💡  Remember, if you set Global Arguments in the previous step, they will be overriding for the Local Arguments.
 
-## Executing the Job
+### Executing the Job
 
 In the fourth step, choose one of two available methods of executing the Job:
 Create Job immediately 💬 or Create Trigger 💬. 
@@ -141,12 +141,12 @@ Create Job immediately 💬 or Create Trigger 💬.
 Immediate Job - the Job executed right away after creating it.
 Trigger - an instruction to execute scripts on defined date and time.
 
-### Create Job Immediately 
+#### Create Job Immediately 
 That’s straight forward action - the Job will be executed right away after clicking the ‘Create Job’ button. 
 The form will be shut down and you will see the window confirming creating New Job with its ID number and two buttons:
 ‘Go back to the Test Plan/List’ - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
 ‘Go to the Jobs Details’ - takes you back to the Job detail view.
-### Create Trigger
+#### Create Trigger
 Selecting this option gives you more alternatives regarding the scheduling and repeating Job in defined periods of time - in other words, you create the Trigger. The Job won’t be executed right away.
 Choose the Execution Date and the Execution Time.
 
@@ -165,7 +165,7 @@ The form will be shut down and you will see the window confirming creating New J
 ‘Go back to the Test Plan/List’ - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
 ‘Go to the Trigger Details’ - takes you back to the Job detail view.
 
-## Results
+### Results
 
 Curious about the results of your so-far work? Of course, you are 😉
 
@@ -193,7 +193,7 @@ The ‘Return Job’ button - the button that lets to repeat the Job one more ti
 
 💡 Notice the difference between the way of displaying the Parallel and Sequential Workflows.
 
-### Statuses
+#### Statuses
 Now, let’s look closely at the statuses, and what they really mean. 👀
 
  When the Job has been ordered, but its execution didn’t start yet 😐. In Details space, you will see the info: ‘No jobs were created for this order”, and there will be no Start and End Time provided. 
@@ -215,7 +215,7 @@ Now, let’s look closely at the statuses, and what they really mean. 👀
 
 You've gone so far in this exciting journey 👏. Catch some breath, and let's move on!
 
-# Schedule
+## Schedule
 Last but not least stage of your trip through PowerFarm platform is to learn more about Schedule and Triggers 👇
 
 
