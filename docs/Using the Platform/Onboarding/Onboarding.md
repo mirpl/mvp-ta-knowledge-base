@@ -59,26 +59,20 @@ Creating the Test Plan 💬  is another step in your adventure with PowerFarm. A
 
 Click the ‘Create new Test Plan' button on the top right corner of the screen to display the form to fill. 
 
-For now, you only provide the Test Plan’s name, an optional description, and choose a Parallel💬  or Sequential💬  checkbox. Once you click the ‘Save’ button, your new Test Plan will appear on the list. 
-
-> 💡 We **recommend** creating both Parallel and Sequential Test Plans to practice the following steps.
+For now, you only provide the Test Plan’s name, an optional description, and choose a Parallel💬 checkbox if it's not checked. Once you click the ‘Save’ button, your new Test Plan will appear on the list. 
 
 
-💬 Definition alert! 🔔
-Sequential - scripts are executed one after another. If one script fails then the next ones are not executed.
-
-
-💬 Definition alert! 🔔
-Parallel - scripts are executed at the same time without any dependencies.
+> 💬 **Definition alert!** 🔔
+**Parallel** - scripts are executed at the same time without any dependencies.
 
 
 Select your new Parallel Test Plan from the list to display the details on the screen and add a Flow to it. 
 It’s easy - just click the ‘Add processes to the workflow’ button on the bottom of the page and choose as many Processes as you wish by clicking at the ‘Add’ button next to them on the displayed form. 
 
-💡 Remember, the form will show all created Tests in the application, so make sure you have a proper amount on the Tets list to practice this step.
+> 💡 **Remember**, the form will show all created Tests in the application, so make sure you have a proper amount on the Tets list to practice this step.
 
-Once you’ve finished adding Tests to your new Workflow, confirm this action by clicking the ‘Save Test for Test Plan'. If you want to dismiss it, click the ‘Close’ button and none of the chosen Tests will be added. 
-In case you need to edit the Workflow, click the ‘Edit Flow’ button. 
+Once you’ve finished adding Tests to your new Test Plan, confirm this action by clicking the ‘Save Test for Test Plan'. If you want to dismiss it, click the ‘Close’ button and none of the chosen Tests will be added. 
+In case you need to edit the Test Plan, click the ‘Edit Flow’ button. 
 
 Excellent! Give yourself pat on the back and keep on. 👊
 
@@ -86,8 +80,8 @@ Excellent! Give yourself pat on the back and keep on. 👊
 ## Jobs
 You now know how to create Tests and Test Plans, but to start the actual experience of Test Automation, you need to create the Job 💬.
 
-💬 Definition alert! 🔔
-Job - Execution of a Test Plan.
+> 💬 **Definition alert! **🔔
+**Job** - Execution of a Test Plan.
 
 ### Create a new job
 
@@ -96,9 +90,9 @@ First, find the ‘Create Job’ button on the Test Plan list, next to every Tes
 Second, open Test Plan's details and find the ‘Create Job’ button in the top right corner of the page. 
 Clicking the ‘Create Job’ button will open the form to fill in.
 
-💡 Remember, if the button is unclickable, the Tests were not added to the Test Plan yet.
+> 💡 **Remember**, if the button is unclickable, the Tests were not added to the Test Plan yet.
 
-💡 You can return to the added Test details page by clicking the ‘Go to Test' button. 
+> 💡 You can return to the added Test details page by clicking the ‘Go to Test' button. 
 
 Filling in the ‘Create New Job’ form consists of four steps. A separate form and graphic pointer outline each of them:
 
@@ -106,30 +100,30 @@ Filling in the ‘Create New Job’ form consists of four steps. A separate form
 
 The form of choosing the Test Version displays every Test added to the Test Plan. For each of them, select branch along with commit you want to use for this Job.
 
-💡 Remember, if there were no commits in the Test, you cannot select Branch and Commit.
+> 💡 **Remember**, if there were no commits in the Test, you cannot select Branch and Commit.
 
 Next, select the Tag and Commit hash 💬. 
 
-💡 Notice, choosing both Tags and Commit hash is optional for every Test.
+> 💡 **Notice**, choosing both Tags and Commit hash is optional for every Test.
 
-💬 Definition alert! 🔔
-Commit hash - the code version used by the Test.
+> 💬 **Definition alert!** 🔔
+**Commit hash** - the code version used by the Test.
 
 
 ### Choose Arguments Collections
 
 In the second step, choose Global Arguments 💬 you want to add to this Job, and click the ‘Save and go to Arguments’ button. 
 
-💡 Remember, collections of Global Arguments are created in the Settings menu.
+> 💡 **Remember**, collections of Global Arguments are created in the Settings menu.
 
-💬 Definition alert! 🔔
-Global Arguments - sets of values with names you can predefine globally and use when executing a set of tests (such as environment URLs or login credentials).
+> 💬** Definition alert!** 🔔
+**Global Arguments** - sets of values with names you can predefine globally and use when executing a set of tests (such as environment URLs or login credentials).
 
 ### Define Arguments Values
 
 In the third step, you can edit the Local Arguments you added while creating the Tests. They will be used for this Job execution.
 
-💡  Remember, if you set Global Arguments in the previous step, they will be overriding for the Local Arguments.
+> 💡  **Remember**, if you set Global Arguments in the previous step, they will be overriding for the Local Arguments.
 
 ### Executing the Job
 
@@ -137,8 +131,8 @@ In the fourth step, choose one of two available methods of executing the Job:
 Create Job immediately 💬 or Create Trigger 💬. 
 
 
-💬 Definition alert! 🔔
-Immediate Job - the Job executed right away after creating it.
+> 💬 **Definition alert! **🔔
+**Immediate Job** - the Job executed right away after creating it.
 Trigger - an instruction to execute scripts on defined date and time.
 
 #### Create Job Immediately 
@@ -151,11 +145,11 @@ Selecting this option gives you more alternatives regarding the scheduling and r
 Choose the Execution Date and the Execution Time.
 
 
-💡  Remember, the Execution Time must be at least 5 minutes ahead.
+> 💡 **Remember**, the Execution Time must be at least 5 minutes ahead.
 
 If you don’t want the Job to repeat, select the option ‘Never’. 
 
-💡  Remember, you cannot set the Finish date if you selected the option ‘Never’.
+> 💡  **Remember**, you cannot set the Finish date if you selected the option ‘Never’.
 
 In case you wish to repeat the Job, choose the option ‘Daily’, ‘Weekly’, or ‘Monthly’ and set the Finish date. 
 
@@ -170,16 +164,16 @@ The form will be shut down and you will see the window confirming creating New J
 Curious about the results of your so-far work? Of course, you are 😉
 
 Go to the Jobs list and check out what it displays.
-ID - the unique Job ID, set by the system
-Test Plan name - the one you entered while creating the Test Plan
-Start date & End Date - if the Job is scheduled; Immediate Jobs will show N/A
-Status - you will learn in what status is your Job at the moment
-Ordered by - the name of the Job creator
+- ID - the unique Job ID, set by the system
+- Test Plan name - the one you entered while creating the Test Plan
+- Start date & End Date - if the Job is scheduled; Immediate Jobs will show N/A
+- Status - you will learn in what status is your Job at the moment
+- Ordered by - the name of the Job creator
 
 If you want to see more detailed info about the Job, click on the ID of the selected one. 
 
-The page with the Job containing Parallel Test Plan or Sequential Workflow allows you to check the following details you didn’t have access to from the list page:
-Test name - along with the link (Parallel Workflow) or the ‘Show Results’ button (Sequential Test Plan) opening the window displaying the results of the Process execution:
+The page with the Job containing Parallel Test Plan allows you to check the following details you didn’t have access to from the list page:
+- Test name - along with the link opening the window displaying the results of the Test execution:
 - Status
 - Start Date
 - End Date
@@ -188,10 +182,8 @@ Test name - along with the link (Parallel Workflow) or the ‘Show Results’ bu
 - Input parameters - Name & Value
 - Generated files 
 - Screenshots
-Workflow information - ‘Type’ & ‘Created by’, along with the ‘Go to workflow’ link, moving the user to the Workflow page.
+- Test Plan information - ‘Type’ & ‘Created by’, along with the ‘Go to workflow’ link, moving the user to the Workflow page.
 The ‘Return Job’ button - the button that lets to repeat the Job one more time.
-
-💡 Notice the difference between the way of displaying the Parallel and Sequential Workflows.
 
 #### Statuses
 Now, let’s look closely at the statuses, and what they really mean. 👀
