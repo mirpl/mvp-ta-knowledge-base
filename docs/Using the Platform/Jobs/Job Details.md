@@ -1,4 +1,4 @@
-# Job-Details
+# Job Details
 
 Curious about the results of your so-far work? Of course, you are 😉
 

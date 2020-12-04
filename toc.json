@@ -16,7 +16,7 @@
     },
     {
       "type": "item",
-      "title": "Supported-Technologies",
+      "title": "Supported Technologies",
       "uri": "docs/Getting Started/Supported Technologies.md"
     },
     {
@@ -49,11 +49,6 @@
       "uri": "docs/Scripts/Selenium on Chrome (Java 8, JUnit).md"
     },
     {
-      "type": "item",
-      "title": "Selenium-on-Chrome",
-      "uri": "docs/Scripts/Selenium on Chrome.md"
-    },
-    {
       "type": "divider",
       "title": "Using the Platform"
     },
@@ -74,7 +69,7 @@
       "items": [
         {
           "type": "item",
-          "title": "PF-Onboarding",
+          "title": "Onboarding",
           "uri": "docs/Using the Platform/Onboarding/Onboarding.md"
         }
       ]
@@ -108,7 +103,7 @@
         {
           "type": "item",
           "title": "Global Arguments",
-          "uri": "docs/Using the Platform/Global Arguments/Global-Arguments.md"
+          "uri": "docs/Using the Platform/Global Arguments/Global Arguments.md"
         }
       ]
     },
@@ -129,8 +124,8 @@
         
         {
           "type": "item",
-          "title": "Job-Details",
-          "uri": "docs/Using the Platform/Jobs/Job-Details.md"
+          "title": "Job Details",
+          "uri": "docs/Using the Platform/Jobs/Job Details.md"
         },
         {
           "type": "item",
@@ -163,7 +158,7 @@
         {
           "type": "item",
           "title": "Application-Settings",
-          "uri": "docs/Using the Platform/Settings/Application-Settings.md"
+          "uri": "docs/Using the Platform/Settings/Application Settings.md"
         },
         {
           "type": "item",
@@ -209,12 +204,12 @@
       "items": [
         {
           "type": "item",
-          "title": "Creating-the-Process",
+          "title": "Creating the Test",
           "uri": "docs/Using the Platform/Tests/Creating the Test.md"
         },
         {
           "type": "item",
-          "title": "List of Processes (navigation)",
+          "title": "List of Tests (navigation)",
           "uri": "docs/Using the Platform/Tests/List of Tests (navigation).md"
         },
         {

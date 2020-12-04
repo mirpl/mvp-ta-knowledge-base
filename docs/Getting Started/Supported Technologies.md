@@ -1,4 +1,4 @@
-# Supported-Technologies
+# Supported Technologies
 
 Scripts are the heart of automated tests executed on the PowerFarm platform. There are many possible solutions to be used - by languages, test frameworks, or optional libraries (e.g., Selenium WebDriver or Puppeteer). Business technologies can be divided into automates for the web, rest services, for desktop and mobile.
 
