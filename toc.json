@@ -169,6 +169,11 @@
           "type": "item",
           "title": "Users",
           "uri": "docs/Using the Platform/Settings/Users.md"
+        },
+        {
+          "type": "item",
+          "title": "Personal Settings",
+          "uri": "../Using the Platform/Settings/Personal Settings.md"
         }
       ]
     },
