@@ -32,7 +32,6 @@
       "title": "Scripts",
       "uri": "docs/Scripts/Scripts.md"
     },
-    
     {
       "type": "item",
       "title": "Puppeteer",
@@ -54,56 +53,32 @@
     },
     {
       "type": "group",
-      "title": "Business Logic",
+      "title": "General info and navigation",
       "items": [
         {
           "type": "item",
           "title": "Business Logic",
           "uri": "docs/Using the Platform/Business Logic/Business Logic.md"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Onboarding",
-      "items": [
+        },
         {
           "type": "item",
           "title": "Onboarding",
-          "uri": "docs/Using the Platform/Onboarding/Onboarding.md"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Dashboards",
-      "items": [
+          "uri": "docs/Using the Platform/General info and navigation/Onboarding.md"
+        },
         {
           "type": "item",
           "title": "Dashboard",
-          "uri": "docs/Using the Platform/Dashboards/Dashboard.md"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Files",
-      "items": [
+          "uri": "docs/Using the Platform/General info and navigation/Dashboard.md"
+        },
         {
           "type": "item",
           "title": "Files",
-          "uri": "docs/Using the Platform/Files/Files.md"
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Global Arguments",
-      "items": [
+          "uri": "docs/Using the Platform/General info and navigation/Files.md"
+        },
         {
           "type": "item",
           "title": "Global Arguments",
-          "uri": "docs/Using the Platform/Global Arguments/Global Arguments.md"
+          "uri": "docs/Using the Platform/General info and navigation/Global Arguments.md"
         }
       ]
     },
@@ -134,16 +109,20 @@
         }       
       ]
     },
-    
-    {
+      {
       "type": "group",
       "title": "Schedule",
       "items": [
         {
           "type": "item",
-          "title": "Schedule",
-          "uri": "docs/Using the Platform/Schedule/Schedule.md"
-        }
+          "title": "Schedules and Triggers",
+          "uri": "docs/Using the Platform/Schedule/Schedules and Triggers.md"
+        },
+        {
+          "type": "item",
+          "title": "Schedule details",
+          "uri": "docs/Using the Platform/Schedule/Schedule details.md"
+         }
       ]
     },
     {
