@@ -1,6 +1,6 @@
 # Schedule
 
-Last but not least stage of your trip through PowerFarm platform is to learn more about Schedule and Triggers 👇
+Last but not least stage of your trip through PowerFarm platform is to learn more about Schedules and Triggers 👇
 
 
 The schedule list contains all Jobs for which the user created Trigger: set the precise execution time and, in some cases, also determined the Job repetitions in defined periods and its finish date. 
