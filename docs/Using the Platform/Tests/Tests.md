@@ -1,5 +1,7 @@
 # Tests
 
+![test](../../../assets/images1/test1.jpg)
+
 Everything good and exciting about PowerFarm starts with creating the new Test  💬. 
 
 <!-- theme: info -->
