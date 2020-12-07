@@ -3,6 +3,8 @@
 First, select the 'Tests' button on the left side of the screen and click the ‘Create New Test' button on the top right corner. 
 It doesn’t sound complicated, right? 😎
 
+![test](../../../assets/images1/test2.jpg)
+
 Now, fill the displayed form:
 
 
