@@ -2,6 +2,7 @@
 
 Click the Test's name to open it and check the essential details displayed on the screen you didn’t have access to while creating it. 
 
+![test](../../../assets/images1/test4.jpg)
 
 The list of commits is empty until you push commits in your repository.
 Find the space ASSIGNED FOLDER IN REPOSITORY, copy the link to your repository, and go to it to execute your first commits. 
