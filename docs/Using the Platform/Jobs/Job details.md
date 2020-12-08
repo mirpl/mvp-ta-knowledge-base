@@ -17,6 +17,11 @@ The page with the Job containing Parallel Test Plan or Sequential Test Plan allo
 <!-- theme: info -->
 >💡 **Notice** the difference between the way of displaying the Parallel and Sequential Test Plan.
 
+## Show results
+
+## Rerun Job
+
+
 ### Statuses
 Now, let’s look closely at the statuses, and what they really mean. 👀
 
