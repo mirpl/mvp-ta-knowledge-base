@@ -58,11 +58,6 @@
       "items": [
         {
           "type": "item",
-          "title": "Business Logic",
-          "uri": "docs/Using the Platform/General info and navigation/Business Logic.md"
-        },
-        {
-          "type": "item",
           "title": "Dashboard",
           "uri": "docs/Using the Platform/General info and navigation/Dashboard.md"
         },
@@ -75,6 +70,11 @@
           "type": "item",
           "title": "Global Arguments",
           "uri": "docs/Using the Platform/General info and navigation/Global Arguments.md"
+        },
+        {
+          "type": "item",
+          "title": "How it works... in short",
+          "uri": "docs/Using the Platform/General info and navigation/How it works... in short.md"
         },
         {
           "type": "item",
