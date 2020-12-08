@@ -99,7 +99,7 @@
         },
         {
           "type": "item",
-          "title": "Jobs",
+          "title": "Jobs - create and edit",
           "uri": "docs/Using the Platform/Jobs/Jobs - create and edit.md"
         },
         {
@@ -167,7 +167,7 @@
         },
         {
           "type": "item",
-          "title": "Test Plans",
+          "title": "Test Plans - create and edit",
           "uri": "docs/Using the Platform/Test Plan/Test Plan - create and edit.md"
         }
       ]
@@ -183,7 +183,7 @@
         },
         {
           "type": "item",
-          "title": "Tests",
+          "title": "Tests - create and edit",
           "uri": "docs/Using the Platform/Tests/Test - create and edit.md"
         }
       ]

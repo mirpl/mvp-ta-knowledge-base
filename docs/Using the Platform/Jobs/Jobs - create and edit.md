@@ -1,4 +1,4 @@
-# Jobs
+# Jobs - create and edit
 
 ![job1](../../../assets/images3/job1.jpg)
 
