@@ -19,14 +19,18 @@ Clicking the ‘Create Job’ button will open the form to fill in.
 
 Filling in the ‘Create New Job’ form consists of four steps. A separate form and graphic pointer outline each of them:
 
+![job4](../../../assets/images3/job4.jpg)
+
 ### Choose Versions of the Test
 
-The form of choosing the Test Version displays every Test added to the Test Plan. For each of them, select branch along with commit you want to use for this Job.
+The form of choosing the Test Version displays every Test added to the Test Plan. For each of them, select branch **1** along with commit you want to use for this Job.
+
+![job5](../../../assets/images3/job5.jpg)
 
 <!-- theme: warning -->
 >💡 **Remember**, if there were no commits in the Test, you cannot select Branch and Commit.
 
-Next, select the Tag  and Commit hash 💬. 
+Next, select the Tag **2** and Commit hash 💬 **3**. 
 
 <!-- theme: info -->
 >💡 **Notice**, choosing both Tags and Commit hash is optional for every Test.
@@ -34,6 +38,7 @@ Next, select the Tag  and Commit hash 💬.
 >💬 Definition alert! 🔔
 **Commit hash** - the code version used by the Test
 
+Confirm by clicking the 'Save ang go to Arguments collections' button **5**.
 
 ### Choose Arguments Collections
 
