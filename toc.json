@@ -162,13 +162,13 @@
       "items": [
         {
           "type": "item",
-          "title": "Test Plans",
-          "uri": "docs/Using the Platform/Test Plan/Test Plan - create and edit.md"
+          "title": "Test Plan Details (navigation)",
+          "uri": "docs/Using the Platform/Test Plan/List of Test Plans (navigation).md"
         },
         {
           "type": "item",
-          "title": "Test Plan Details (navigation)",
-          "uri": "docs/Using the Platform/Test Plan/Test Plan Details (navigation).md"
+          "title": "Test Plans",
+          "uri": "docs/Using the Platform/Test Plan/Test Plan - create and edit.md"
         }
       ]
     },
@@ -185,11 +185,6 @@
           "type": "item",
           "title": "Tests",
           "uri": "docs/Using the Platform/Tests/Test - create and edit.md"
-        },
-        {
-          "type": "item",
-          "title": "Test Details",
-          "uri": "docs/Using the Platform/Tests/Test Details.md"
         }
       ]
     },

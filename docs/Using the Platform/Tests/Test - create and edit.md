@@ -49,7 +49,7 @@ But it doesn’t mean your job is done here.
 
 Click created test and check out how to edit your Test.
 
-## Edit the Test
+## Editing the Test
 
 Click the Test's name to open it and check the essential details displayed on the screen you didn’t have access to while creating it. 
 
@@ -72,3 +72,5 @@ Enter the Argument name **1 **and the Default value **2**, and click the ‘Save
 
 >💬 Definition alert! 🔔
 >**Local arguments** - defined values with a name your test can use when executing, assign to every single script.
+
+Added arguments can be edited by clicking the 'Edit' button.
