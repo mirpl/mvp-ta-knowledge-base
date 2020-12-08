@@ -28,14 +28,15 @@
       "type": "divider",
       "title": "Scripts"
     },
-    {"type": "item",
-      "title": "Scripts",
-      "uri": "docs/Scripts/Scripts.md"
-    },
     {
       "type": "item",
       "title": "Puppeteer",
       "uri": "docs/Scripts/Puppeteer.md"
+    },
+    {
+      "type": "item",
+      "title": "Scripts",
+      "uri": "docs/Scripts/Scripts.md"
     },
     {
       "type": "item",
@@ -58,11 +59,6 @@
         {
           "type": "item",
           "title": "Business Logic",
-          "uri": "docs/Using the Platform/Business Logic/Business Logic.md"
-        },
-        {
-          "type": "item",
-          "title": "Onboarding",
           "uri": "docs/Using the Platform/General info and navigation/Business Logic.md"
         },
         {
@@ -79,6 +75,11 @@
           "type": "item",
           "title": "Global Arguments",
           "uri": "docs/Using the Platform/General info and navigation/Global Arguments.md"
+        },
+        {
+          "type": "item",
+          "title": "Onboarding",
+          "uri": "docs/Using the Platform/General info and navigation/Onboarding.md"
         }
       ]
     },
@@ -88,15 +89,14 @@
       "items": [
         {
           "type": "item",
-          "title": "Jobs",
-          "uri": "docs/Using the Platform/Jobs/Jobs.md"
-        },
-        {
-          "type": "item",
           "title": "Create a New Job",
           "uri": "docs/Using the Platform/Jobs/Create a New Job.md"
         },
-        
+        {
+          "type": "item",
+          "title": "Errors",
+          "uri": "docs/Using the Platform/Jobs/Errors.md"
+        },
         {
           "type": "item",
           "title": "Job Details",
@@ -104,25 +104,25 @@
         },
         {
           "type": "item",
-          "title": "Errors",
-          "uri": "docs/Using the Platform/Jobs/Errors.md"
-        }       
+          "title": "Jobs",
+          "uri": "docs/Using the Platform/Jobs/Jobs.md"
+        }
       ]
     },
-      {
+    {
       "type": "group",
       "title": "Schedule",
       "items": [
         {
           "type": "item",
-          "title": "Schedules and Triggers",
-          "uri": "docs/Using the Platform/Schedule/Schedules and Triggers.md"
+          "title": "Schedule details",
+          "uri": "docs/Using the Platform/Schedule/Schedule details.md"
         },
         {
           "type": "item",
-          "title": "Schedule details",
-          "uri": "docs/Using the Platform/Schedule/Schedule details.md"
-         }
+          "title": "Schedule",
+          "uri": "docs/Using the Platform/Schedule/Schedules and Triggers.md"
+        }
       ]
     },
     {
@@ -141,6 +141,11 @@
         },
         {
           "type": "item",
+          "title": "Personal Settings",
+          "uri": "docs/Using the Platform/Settings/Personal Settings.md"
+        },
+        {
+          "type": "item",
           "title": "Repositories",
           "uri": "docs/Using the Platform/Settings/Repositories.md"
         },
@@ -148,11 +153,6 @@
           "type": "item",
           "title": "Users",
           "uri": "docs/Using the Platform/Settings/Users.md"
-        },
-        {
-          "type": "item",
-          "title": "Personal Settings",
-          "uri": "docs/Using the Platform/Settings/Personal Settings.md"
         }
       ]
     },
@@ -193,7 +193,7 @@
         },
         {
           "type": "item",
-          "title": "List of Tests (navigation)",
+          "title": "List of Processes (navigation)",
           "uri": "docs/Using the Platform/Tests/List of Tests (navigation).md"
         },
         {
@@ -209,9 +209,18 @@
       ]
     },
     {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
       "type": "item",
       "title": "mvp-API",
       "uri": "PF-API.v1.json"
+    },
+    {
+      "type": "item",
+      "title": "mvp-API",
+      "uri": "reference/documentation.json"
     }
   ]
 }
