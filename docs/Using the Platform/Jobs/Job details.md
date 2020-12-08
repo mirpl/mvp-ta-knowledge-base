@@ -3,21 +3,28 @@
 The page with the Job containing Parallel Test Plan allows you to check the following details you didn’t have access to from the [list page]():
 
 ![job11](../../../assets/images3/job11.jpg)
-- Test name - along with the link (Parallel Test Plan) or the ‘Show Results’ button (Sequential Test Plan) opening the window displaying the results of the Test execution:
-- Status
-- Start Date
-- End Date
-- Execution Time
+
+1. Job name
+2. Status
+3. Start Date
+4. End Date
+5. Execution Time
+6. Test Plan information - ‘Type’ & ‘Created by’, along with the ‘Go to Test Plan' link, moving the user to the Test Plan page.
+7. The ‘Return Job’ button - 
+8. The 'Delete' button
+9. Test name - along with the link opening the window displaying the results of the Test execution
+10. Status of the Test
+11. The commit used in the Test
+12. Test end date
+13. The 'Show results' button
+14. Filter for tests
+
+## Show results
+
 - Output - displayed in JSON format
 - Input parameters - Name & Value
 - Generated files 
 - Screenshots
-- Test Plan information - ‘Type’ & ‘Created by’, along with the ‘Go to Test Plan' link, moving the user to the Test Plan page.
-- The ‘Return Job’ button - 
-- Go to Trigger
-
-
-## Show results
 
 ## Rerun Job
 
