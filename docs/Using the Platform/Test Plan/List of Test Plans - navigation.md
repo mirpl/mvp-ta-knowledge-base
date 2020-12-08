@@ -1,4 +1,4 @@
-# Test Plan Details (navigation)
+# List of Test Plan - navigation
 
 The space with the list of all Tests Plan allows to create a new Test Plan, create a new Job, provides basic info about the Test Plan,and lets find the Test Plan you are searching for.
 

@@ -1,12 +1,9 @@
-# Schedule
-
-Last but not least stage of your trip through PowerFarm platform is to learn more about Schedules and Triggers 👇
-
+# Schedules and Triggers
 
 The schedule list contains all Jobs for which the user created Trigger: set the precise execution time and, in some cases, also determined the Job repetitions in defined periods and its finish date. 
 
 <!-- theme: warning -->
->💡  **Remember**, the Triggers were created while setting up New Jobs; if you want to change them, get back to the Jobs details.
+>💡  **Remember**, the Triggers were created while setting up New Jobs; if you want to change them, get back to the [Jobs details](url).
 
 Go to the Schedule list, and check out the details it displays.
 

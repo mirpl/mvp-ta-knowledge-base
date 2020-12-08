@@ -1,4 +1,4 @@
-# Job List
+# List of Jobs - navigation
 
 Curious about the results of your so-far work? Of course, you are 😉
 

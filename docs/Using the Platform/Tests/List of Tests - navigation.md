@@ -1,4 +1,4 @@
-# List of Tests (navigation)
+# List of Tests - navigation
 
 The space with the list of all Tests allows to create a new Test, provides basic info about the Test, and lets find the Test you are searching for.
 
