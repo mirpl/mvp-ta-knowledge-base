@@ -18,6 +18,8 @@ It’s easy - just click the ‘Add Test to the Test Plan' button on the bottom 
 
 ![tp4](../../../assets/images2/tp4.jpg)
 
+![tp5](../../../assets/images2/tp5.jpg)
+
 <!-- theme: warning -->
 >💡 **Remember**, the form will show all created Tests in the application, so make sure you have a proper amount on the Tests list to practice this step.
 
