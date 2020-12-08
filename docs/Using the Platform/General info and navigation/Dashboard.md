@@ -20,12 +20,12 @@ If you want to know the quantity of a certain status, go on it with the cursor.
 ## Time Used per Month
 
 On this chart, you will see how many minutes of your monthly plan has been used to this moment. 
+![dash2](../../../assets/images/dash5.jpg)
 
-![dash1](../../../assets/images/dash4.jpg)
 
 ## Fails, Success and Build Fail per Time
 
+From this chart, you will learn how many Tests have been built in a given period, and how many of them were success or fail.
 
-
-![dash2](../../../assets/images/dash5.jpg)
+![dash1](../../../assets/images/dash4.jpg)
 

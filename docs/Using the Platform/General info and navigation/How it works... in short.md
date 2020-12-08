@@ -1,4 +1,4 @@
-# Business Logic
+# How it works... in short
 
 Since you already know how to create the account and sign up, for sure, you anticipate learning how our Platform works. 
 

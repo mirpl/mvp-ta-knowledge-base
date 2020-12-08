@@ -7,7 +7,7 @@ The example used to describe the Puppeteer technology contains one test Puppetee
 The following script was used to create this task:
 
 ```java
-module.exports = async function browser, {inputParameters, previousResult}) {
+{  module.exports = async function browser, {inputParameters, previousResult}) {
    const page = await browser.newPage();
    await page.goto(inputParameters.testTargetUrl);
    // console.log(await page.content());
