@@ -2,12 +2,11 @@
 
 Click the ‘Create new Test Plan' button on the top right corner of the screen to display the form to fill. 
 
-For now, you only provide the Test Plan's name, an optional description, and choose a Parallel💬  or Sequential💬  checkbox. Once you click the ‘Save’ button, your new Test Plan will appear on the list. 
+![tp2](../../../assets/images2/tp2.jpg)
 
-<!-- theme: warning -->
->💡 We **recommend** creating both Parallel and Sequential Test Plans to practice the following steps.
+For now, you only provide the Test Plan's name, an optional description, and choose a Parallel💬 checkbox (in case it's not checked yet). Once you click the ‘Save’ button, your new Test Plan will appear on the list. 
 
-### Parallel Test Plan
+![tp3](../../../assets/images2/tp3.jpg)
 
 
 >💬 Definition alert! 🔔
@@ -21,11 +20,6 @@ It’s easy - just click the ‘Add Test to the Test Plan' button on the bottom 
 >💡 **Remember**, the form will show all created Tests in the application, so make sure you have a proper amount on the Tests list to practice this step.
 
 Once you’ve finished adding Tests to your new Test Plan, confirm this action by clicking the ‘Save Test for Test Plan'. If you want to dismiss it, click the ‘Close’ button and none of the chosen Processes will be added. 
-
-
-### Sequential Workflow
->💬 Definition alert! 🔔
-**Sequential** - scripts are executed one after another. If one script fails then the next ones are not executed.
 
 <!-- theme: success -->
 >Excellent! Give yourself pat on the back and keep on. 👊
