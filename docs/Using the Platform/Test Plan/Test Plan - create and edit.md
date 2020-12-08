@@ -14,7 +14,7 @@ Click the ‘Create new Test Plan' button on the top right corner of the screen 
 
 ![tp2](../../../assets/images2/tp2.jpg)
 
-For now, you only provide the Test Plan's name, an optional description, and choose a Parallel💬 checkbox (in case it's not checked yet). Once you click the ‘Save’ button, your new Test Plan will appear on the list. 
+For now, you only provide the Test Plan's name **1**, an optional description **2**, and choose a Parallel💬 checkbox **3** (in case it's not checked yet). Once you click the 'Create test plan' button **4**, your new Test Plan will appear on the list. 
 
 ![tp3](../../../assets/images2/tp3.jpg)
 
@@ -22,24 +22,27 @@ For now, you only provide the Test Plan's name, an optional description, and cho
 >💬 Definition alert! 🔔
 **Parallel** - scripts are executed at the same time without any dependencies.
 
+## Editing the Test Plan
 
-Select your new Parallel Test Plan from the list to display the details on the screen and add a Flow to it. 
-It’s easy - just click the ‘Add Test to the Test Plan' button on the bottom of the page and choose as many Tests as you wish by clicking at the ‘Add’ button next to them on the displayed form.
+Select your new Parallel Test Plan from the list to display the details on the screen and add a description **1** (optional).
+Now, add the Tests to it. 
+It’s easy - just click the ‘Add Test to the Test Plan' button **2** on the bottom of the page... 
 
 ![tp4](../../../assets/images2/tp4.jpg)
+
+...and choose as many Tests as you wish by clicking at the ‘Add’ button next to them on the displayed form.
+If there are many Tests on the list, use the filter **1** to find the proper one.
 
 ![tp5](../../../assets/images2/tp5.jpg)
 
 <!-- theme: warning -->
->💡 **Remember**, the form will show all created Tests in the application, so make sure you have a proper amount on the Tests list to practice this step.
+>💡 **Remember**, the form will show all created Tests in the application, so make sure you have a proper amount on the Tests list to execute this step.
 
-Once you’ve finished adding Tests to your new Test Plan, confirm this action by clicking the ‘Save Test for Test Plan'. If you want to dismiss it, click the ‘Close’ button and none of the chosen Processes will be added. 
+Once you’ve finished adding Tests to your new Test Plan, confirm this action by clicking the ‘Save Test Plan' button **2**. If you want to dismiss it, click the ‘Close’ button and none of the chosen Processes will be added. 
 
 <!-- theme: success -->
 >Excellent! Give yourself pat on the back and keep on. 👊
 
-## Edit Test Plan
-
-In case you need to edit the Test Plan, click the ‘Edit Flow’ button.
+In case you need to edit the existing Test Plan, click the ‘Edit Flow’ button.
 
 ![tp6](../../../assets/images2/tp6.jpg)
