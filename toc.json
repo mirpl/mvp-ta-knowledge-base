@@ -89,7 +89,7 @@
       "items": [
         {
           "type": "item",
-          "title": "Create a New Job",
+          "title": "Jobs",
           "uri": "docs/Using the Platform/Jobs/Create a New Job.md"
         },
         {
@@ -101,11 +101,6 @@
           "type": "item",
           "title": "Job Details",
           "uri": "docs/Using the Platform/Jobs/Job Details.md"
-        },
-        {
-          "type": "item",
-          "title": "Jobs",
-          "uri": "docs/Using the Platform/Jobs/Jobs.md"
         }
       ]
     },
