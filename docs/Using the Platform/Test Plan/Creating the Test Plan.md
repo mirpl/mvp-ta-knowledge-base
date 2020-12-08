@@ -14,7 +14,9 @@ For now, you only provide the Test Plan's name, an optional description, and cho
 
 
 Select your new Parallel Test Plan from the list to display the details on the screen and add a Flow to it. 
-It’s easy - just click the ‘Add Test to the Test Plan' button on the bottom of the page and choose as many Tests as you wish by clicking at the ‘Add’ button next to them on the displayed form. 
+It’s easy - just click the ‘Add Test to the Test Plan' button on the bottom of the page and choose as many Tests as you wish by clicking at the ‘Add’ button next to them on the displayed form.
+
+![tp4](../../../assets/images2/tp4.jpg)
 
 <!-- theme: warning -->
 >💡 **Remember**, the form will show all created Tests in the application, so make sure you have a proper amount on the Tests list to practice this step.
