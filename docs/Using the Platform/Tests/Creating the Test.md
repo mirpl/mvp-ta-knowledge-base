@@ -22,7 +22,7 @@ Now, fill the displayed form:
 
 **3**. Select technology: just drop-down the list of technologies in which you wrote your test script and click the one you need. 
 
-**4**. Now, select one of the script directories - also accessible on the drop-down list - and enter the path to the script you want to use in this Test.
+**4**. Now, select one of the script directories - also accessible on the drop-down list - and **5** enter the path to the script you want to use in this Test.
 
 <!-- theme: warning -->
 >💡 **Remember** that you can add a new repository by the [Settings](../Settings/Repositories.md) menu. 
