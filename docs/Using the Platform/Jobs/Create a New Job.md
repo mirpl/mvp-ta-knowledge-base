@@ -1,8 +1,14 @@
 # Create a New Job
 
 There are two ways of creating a new Job. 
-First, find the ‘Create Job’ button on the Test Plan list, next to every Test Plan.
-Second, open Test Plan's details and find the ‘Create Job’ button in the top right corner of the page. 
+1.  find the ‘Create Job’ button on the Test Plan list, next to every Test Plan.
+
+![job3](../../../assets/images3/job3.jpg)
+
+2. open Test Plan's details and find the ‘Create Job’ button in the top right corner of the page. 
+
+![job2](../../../assets/images3/job2.jpg)
+
 Clicking the ‘Create Job’ button will open the form to fill in.
 
 <!-- theme: warning -->
