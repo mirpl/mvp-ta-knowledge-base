@@ -1,4 +1,15 @@
-# Creating the Test
+# Tests
+
+![test](../../../assets/images1/test1.jpg)
+
+Everything good and exciting about PowerFarm starts with creating the new Test  💬. 
+
+<!-- theme: info -->
+>💬 Definition alert! 🔔
+>**Test** - Single test script that can work on its own and perform one task. It can be combined with other scripts to create the whole scenario of the test case.
+
+
+## Creating the Test
 
 First, select the 'Tests' button on the left side of the screen and click the ‘Create New Test' button on the top right corner. 
 It doesn’t sound complicated, right? 😎
