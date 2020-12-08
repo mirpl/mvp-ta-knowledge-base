@@ -1,4 +1,14 @@
-# Creating the Test Plan
+# Test Plans
+
+![tp1](../../../assets/images2/tp1.jpg)
+
+Creating the Test Plan 💬  is another step in your adventure with PowerFarm. And it’s not a complicated operation either.
+
+>💬 Definition alert! 🔔
+>**Test Plan** - Set of scripts that can be executed in a sequence or simultaneously without any dependencies. Each test plan can consist of multiple tests. 
+
+
+## Creating the Test Plan
 
 Click the ‘Create new Test Plan' button on the top right corner of the screen to display the form to fill. 
 
@@ -27,3 +37,9 @@ Once you’ve finished adding Tests to your new Test Plan, confirm this action b
 
 <!-- theme: success -->
 >Excellent! Give yourself pat on the back and keep on. 👊
+
+## Edit Test Plan
+
+In case you need to edit the Test Plan, click the ‘Edit Flow’ button.
+
+![tp6](../../../assets/images2/tp6.jpg)
