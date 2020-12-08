@@ -17,5 +17,5 @@ Go to the Jobs list and check out what it displays.
 9. The number of all Jobs and the number of Jobs displayed on one page
 10. Changing the page
 
-If you want to see more detailed info about the Job, click on the ID of the selected one. 
+If you want to see more detailed info about the Job, click on the ID of the selected one, and go to [Job details](). 
 

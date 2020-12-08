@@ -1,6 +1,8 @@
 # Job details
 
-The page with the Job containing Parallel Test Plan or Sequential Test Plan allows you to check the following details you didn’t have access to from the list page:
+The page with the Job containing Parallel Test Plan allows you to check the following details you didn’t have access to from the [list page]():
+
+![job11](../../../assets/images3/job11.jpg)
 - Test name - along with the link (Parallel Test Plan) or the ‘Show Results’ button (Sequential Test Plan) opening the window displaying the results of the Test execution:
 - Status
 - Start Date
@@ -14,8 +16,6 @@ The page with the Job containing Parallel Test Plan or Sequential Test Plan allo
 - The ‘Return Job’ button - 
 - Go to Trigger
 
-<!-- theme: info -->
->💡 **Notice** the difference between the way of displaying the Parallel and Sequential Test Plan.
 
 ## Show results
 

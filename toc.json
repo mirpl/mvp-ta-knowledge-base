@@ -89,18 +89,23 @@
       "items": [
         {
           "type": "item",
-          "title": "Jobs",
-          "uri": "docs/Using the Platform/Jobs/Create a New Job.md"
-        },
-        {
-          "type": "item",
           "title": "Errors",
           "uri": "docs/Using the Platform/Jobs/Errors.md"
         },
         {
           "type": "item",
-          "title": "Job Details",
-          "uri": "docs/Using the Platform/Jobs/Job Details.md"
+          "title": "Job details",
+          "uri": "docs/Using the Platform/Jobs/Job details.md"
+        },
+        {
+          "type": "item",
+          "title": "Jobs",
+          "uri": "docs/Using the Platform/Jobs/Jobs - create and edit.md"
+        },
+        {
+          "type": "item",
+          "title": "Job List",
+          "uri": "docs/Using the Platform/Jobs/List of Jobs (navigation).md"
         }
       ]
     },
