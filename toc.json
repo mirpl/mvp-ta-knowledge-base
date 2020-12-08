@@ -104,7 +104,7 @@
         },
         {
           "type": "item",
-          "title": "Job List",
+          "title": "List of Jobs - navigation",
           "uri": "docs/Using the Platform/Jobs/List of Jobs - navigation.md"
         }
       ]
@@ -120,7 +120,7 @@
         },
         {
           "type": "item",
-          "title": "Schedule",
+          "title": "Schedules and Triggers",
           "uri": "docs/Using the Platform/Schedule/Schedules and Triggers.md"
         }
       ]
@@ -162,7 +162,7 @@
       "items": [
         {
           "type": "item",
-          "title": "Test Plan Details (navigation)",
+          "title": "List of Test Plan - navigation",
           "uri": "docs/Using the Platform/Test Plan/List of Test Plans - navigation.md"
         },
         {
@@ -178,7 +178,7 @@
       "items": [
         {
           "type": "item",
-          "title": "List of Tests (navigation)",
+          "title": "List of Tests - navigation",
           "uri": "docs/Using the Platform/Tests/List of Tests - navigation.md"
         },
         {
