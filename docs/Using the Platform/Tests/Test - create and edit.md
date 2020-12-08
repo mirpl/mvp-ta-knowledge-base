@@ -5,7 +5,7 @@
 Everything good and exciting about PowerFarm starts with creating the new Test  💬. 
 
 <!-- theme: info -->
->💬 Definition alert! 🔔
+>💬** Definition alert!** 🔔
 >**Test** - Single test script that can work on its own and perform one task. It can be combined with other scripts to create the whole scenario of the test case.
 
 
@@ -47,4 +47,28 @@ It isn’t what you want to have on your list? Simply click the ‘Cancel’ but
 
 But it doesn’t mean your job is done here. 
 
-Click created test and check out the Test details.
+Click created test and check out how to edit your Test.
+
+## Edit the Test
+
+Click the Test's name to open it and check the essential details displayed on the screen you didn’t have access to while creating it. 
+
+![test](../../../assets/images1/test4.jpg)
+
+The list of commits **[1]** will be empty until you push commits in your repository.
+Find the space ASSIGNED FOLDER IN REPOSITORY **[2]**, copy the link to your repository, and go to it to execute your first commits. 
+
+<!-- theme: success -->
+>Well done! 👌
+
+Now you can see the commits notification in Test details and continue your work.
+
+
+It’s time to add Local Arguments 💬 **[3]** to your Test by clicking the ‘Add Local Arguments’ button and filling the form displayed on the screen. 
+
+![test5](../../../assets/images1/test5.jpg)
+
+Enter the Argument name **1 **and the Default value **2**, and click the ‘Save’ button **3** or dismiss this action clicking the ‘Close’ button **4**. You can add as many Arguments as you wish and the list of all Arguments will be visible in the Process details. 
+
+>💬 Definition alert! 🔔
+>**Local arguments** - defined values with a name your test can use when executing, assign to every single script.
