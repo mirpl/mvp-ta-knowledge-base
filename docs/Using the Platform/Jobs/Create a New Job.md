@@ -1,4 +1,13 @@
-# Create a New Job
+# Jobs
+
+![job1](../../../assets/images3/job1.jpg)
+
+You now know how to create Tests and Test Plans, but to start the actual experience of Test Automation, you need to create the Job 💬.
+
+>💬 Definition alert! 🔔
+**Job** - Execution of a Test Plan.
+
+## Create a New Job
 
 There are two ways of creating a new Job. 
 1.  find the ‘Create Job’ button on the Test Plan list, next to every Test Plan.
@@ -38,14 +47,18 @@ Next, select the Tag **2** and Commit hash 💬 **3**.
 >💬 Definition alert! 🔔
 **Commit hash** - the code version used by the Test
 
+If you want that every test of this Job had the same values, click the 'Copy values to other Tests' button **4**.
+
 Confirm by clicking the 'Save ang go to Arguments collections' button **5**.
 
 ### Choose Arguments Collections
 
-In the second step, choose Global Arguments 💬 you want to add to this Job, and click the ‘Save and go to Arguments’ button. 
+In the second step, choose Global Arguments 💬 you want to add to this Job. If there are many arguments on the list, use the filter above it **1**, and click the ‘Save and go to Arguments’ button **2**. 
+
+![jobs6](../../../assets/images3/job6.jpg)
 
 <!-- theme: warning -->
->💡 **Remember**, collections of Global Arguments are created in the Settings menu.
+>💡 **Remember**, collections of Global Arguments are created in the [Global Arguments]() menu.
 
 >💬 Definition alert! 🔔
 **Global Arguments** - sets of values with names you can predefine globally and use when executing a set of tests (such as environment URLs or login credentials).
@@ -58,7 +71,9 @@ In the third step, you can edit the Local Arguments you added while creating the
 ### Executing the Job
 
 In the fourth step, choose one of two available methods of executing the Job:
-Create Job immediately 💬 or Create Trigger 💬. 
+Create Job immediately 💬 **1** or Create Trigger 💬 **2**. 
+
+![job7](../../../assets/images3/job8.jpg)
 
 
 >💬 Definition alert! 🔔
@@ -67,9 +82,11 @@ Trigger - an instruction to execute scripts on defined date and time.
 
 #### Create Job Immediately 
 That’s straight forward action - the Job will be executed right away after clicking the ‘Create Job’ button. 
-The form will be shut down and you will see the window confirming creating New Job with its ID number and two buttons:
-‘Go back to the Test Plan/List’ - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
-‘Go to the Jobs Details’ - takes you back to the Job detail view.
+The form will be shut down and you will see the window confirming creating New Job with its ID number **1** and two buttons:
+‘Go back to job details/list’ **2** - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
+‘Go to the Jobs Details’ **3** - takes you back to the Job detail view.
+
+![job9](../../../assets/images3/job9.jpg)
 
 >💡  **Notice**, the time to build a new job depends on whether the virtual machines are ready or need to be created; the time bar will be informing you of the progress.
 #### Create Trigger
