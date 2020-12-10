@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "mvp-API",
-    "version": "2020-12-08T11:55:55Z",
+    "version": "2020-12-10T08:08:39Z",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -88,6 +88,10 @@
                   "jobID": {
                     "type": "string",
                     "description": "if given, rerun of this job will be created with a given author, and other fields will be ignored"
+                  },
+                  "globalArguments": {
+                    "type": "array",
+                    "description": "array of IDs of Global Arguments which will be passed to job tasks"
                   },
                   "jobsConfiguration": {
                     "description": "You have to attach configuration for every process in workflow. Otherwise\nerror 'bad request' will be returned.",
