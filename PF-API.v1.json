@@ -1,0 +1,240 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "mvp-API",
+    "version": "2020-10-13T08:32:55Z",
+    "description": "Powerfarm API documentation",
+    "contact": {
+      "email": "saas-admin@makeitirght.ai",
+      "name": "Administrator",
+      "url": "https://makeitright.ai"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://tbhhsd5122.execute-api.us-east-1.amazonaws.com/mvp",
+      "description": "API server"
+    }
+  ],
+  "paths": {
+    "/jobs": {
+      "description": "Jobs",
+      "post": {
+        "tags": [
+          "Jobs"
+        ],
+        "description": "Create new job",
+        "responses": {
+          "200": {
+            "description": "Success will return jobID of newly created job",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "jobID": {
+                          "description": "Newly created job Id",
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error occuried if json request is invalid",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error occuried if workflow/process/technology not exists",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "description": "Request body to create new job.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "author": {
+                    "type": "string"
+                  },
+                  "workflowID": {
+                    "type": "string"
+                  },
+                  "jobsConfiguration": {
+                    "description": "You have to attach configuration for every process in workflow. Otherwise\nerror 'bad request' will be returned.",
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "codeVersion": {
+                          "type": "string"
+                        },
+                        "processID": {
+                          "type": "string"
+                        },
+                        "gitReferenceType": {
+                          "description": "Allowed values: 'branch', 'commit', 'tag'",
+                          "type": "string"
+                        },
+                        "gitReferenceName": {
+                          "type": "string"
+                        },
+                        "deviceConfiguration": {
+                          "type": "object",
+                          "description": "Only for mobile jobs",
+                          "properties": {
+                            "OS": {
+                              "type": "string"
+                            },
+                            "applicationURL": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "mvp-apiAuthorizer": []
+          }
+        ]
+      }
+    },
+    "/jobs/{jobId}/status": {
+      "get": {
+        "tags": [
+          "Jobs"
+        ],
+        "parameters": [
+          {
+            "name": "jobId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success will return job status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "jobStatus": {
+                          "description": "Job status",
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error occuried if jobId won't be provided",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error occuried if job won't be found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occuried on backend side, try again later",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "mvp-apiAuthorizer": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ErrorResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "description": "It will be set to 'error'"
+          },
+          "message": {
+            "type": "string",
+            "description": "Human readable message about error"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "mvp-apiAuthorizer": {
+        "type": "apiKey",
+        "description": "API Authorizer by token",
+        "name": "Token",
+        "in": "header",
+        "x-amazon-apigateway-authtype": "custom"
+      }
+    }
+  }
+}
