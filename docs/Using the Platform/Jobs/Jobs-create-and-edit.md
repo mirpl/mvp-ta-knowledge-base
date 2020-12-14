@@ -89,6 +89,7 @@ The form will be shut down and you will see the window confirming creating New J
 ![job9](../../../assets/images3/job9.jpg)
 
 >💡  **Notice**, the time to build a new job depends on whether the virtual machines are ready or need to be created; the time bar will be informing you of the progress.
+
 #### Create Trigger
 Selecting this option gives you more alternatives regarding the scheduling and repeating Job in defined periods of time - in other words, you create the Trigger. The Job won’t be executed right away, but at a later point in time, or in specific intervals.
 Choose the Execution Date and the Execution Time.

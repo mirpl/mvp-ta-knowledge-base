@@ -33,21 +33,21 @@ The page with the Job containing Parallel Test Plan allows you to check the foll
 Now, let’s look closely at the statuses, and what they really mean. 👀
 
 
- When the Job has been ordered, but its execution hasn't started yet ??. In Details space, you will see the info: ‘No jobs were created for this order”, and there will be no Start and End Time provided. 
+When the Job has been ordered, but its execution hasn't started yet ??. In Details space, you will see the info: ‘No jobs were created for this order”, and there will be no Start and End Time provided. 
 
- When a new Job is created.
+![created](../../../assets/images3/created.jpg) When a new Job is created.
 
- When the Job is canceled by the user before it starts execution.
+![canceled](../../../assets/images3/canceled.jpg) When the Job is canceled by the user before it starts execution.
 
- When at least one connected Test is pending (and others can be created).
+![pedning](../../../assets/images3/pending.jpg) When at least one connected Test is pending (and others can be created).
 
- When one of the Tests cannot be built, or the order cannot be submitted to the queue 😟. When you go to check the results, you will see the respective info in the ‘Output’ window. 
+![failed](../../../assets/images3/failed.jpg) When one of the Tests cannot be built, or the order cannot be submitted to the queue 😟. When you go to check the results, you will see the respective info in the ‘Output’ window. 
 
- When a robot could not be built.
+![bfailed](../../../assets/images3/buildfailed.jpg) When a robot could not be built.
 
-  When at least one Test is currently running
+![exec](../../../assets/images3/Execution.jpg)  When at least one Test is currently running
 
- When the execution of this Job succeeded 😀. When you go to see the results, you will see the respective info in the ‘Output’ window.
+![success](../../../assets/images3/success.jpg) When the execution of this Job succeeded 😀. When you go to see the results, you will see the respective info in the ‘Output’ window.
 
 
 You've gone so far in this exciting journey 👏. Catch some breath, and let's move on!
