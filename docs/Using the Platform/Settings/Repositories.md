@@ -1,5 +1,7 @@
 # Repositories
 
+![repo](../../../assets/images6/repositories.jpg)
+
 To add the repository, go to ‘Repositories’ on the screen’s left side and click the ‘Assign Repository’ button.
 
 
