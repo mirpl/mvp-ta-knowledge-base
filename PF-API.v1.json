@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "mvp-API",
-    "version": "2020-12-15 13:24:34.961659",
+    "version": "2020-12-16 09:57:00.961696",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -126,6 +126,14 @@
                               "type": "string"
                             }
                           }
+                        },
+                        "inputParameters": {
+                          "type": "object",
+                          "description": "map of parameter name by parameter value - provided automatically if using `globalArguments`"
+                        },
+                        "secretParameters": {
+                          "type": "object",
+                          "description": "map of parameter name by parameter ID - provided automatically if using global `parameterArguments`"
                         }
                       }
                     }
