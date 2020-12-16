@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "mvp-API",
-    "version": "2020-10-13T08:32:55Z",
+    "version": "2020-12-16 09:57:56.695189",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -12,7 +12,7 @@
   },
   "servers": [
     {
-      "url": "https://tbhhsd5122.execute-api.us-east-1.amazonaws.com/mvp",
+      "url": "https://mpk3a9lw9j.execute-api.us-east-1.amazonaws.com/mvp",
       "description": "API server"
     }
   ],
@@ -26,7 +26,7 @@
         "description": "Create new job",
         "responses": {
           "200": {
-            "description": "Success will return jobID of newly created job",
+            "description": "Success will return jobID newly created job",
             "content": {
               "application/json": {
                 "schema": {
@@ -51,7 +51,7 @@
             }
           },
           "400": {
-            "description": "Error occuried if json request is invalid",
+            "description": "Error occurred if json request is invalid",
             "content": {
               "application/json": {
                 "schema": {
@@ -61,7 +61,7 @@
             }
           },
           "404": {
-            "description": "Error occuried if workflow/process/technology not exists",
+            "description": "Error occurred if workflow/process/technology not exists",
             "content": {
               "application/json": {
                 "schema": {
@@ -85,8 +85,16 @@
                   "workflowID": {
                     "type": "string"
                   },
+                  "jobID": {
+                    "type": "string",
+                    "description": "if given, rerun of this job will be created with a given author, and other fields will be ignored"
+                  },
+                  "globalArguments": {
+                    "type": "array",
+                    "description": "array of IDs of Global Arguments which will be passed to job tasks"
+                  },
                   "jobsConfiguration": {
-                    "description": "You have to attach configuration for every process in workflow. Otherwise\nerror 'bad request' will be returned.",
+                    "description": "You have to attach configuration for every process in workflow. Otherwise error 'bad request' will be returned.",
                     "type": "array",
                     "items": {
                       "type": "object",
@@ -112,6 +120,9 @@
                               "type": "string"
                             },
                             "applicationURL": {
+                              "type": "string"
+                            },
+                            "deviceID": {
                               "type": "string"
                             }
                           }
@@ -148,7 +159,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success will return job status",
+            "description": "Success returns job status",
             "content": {
               "application/json": {
                 "schema": {
@@ -173,7 +184,7 @@
             }
           },
           "400": {
-            "description": "Error occuried if jobId won't be provided",
+            "description": "Error occurred if jobId won't be provided",
             "content": {
               "application/json": {
                 "schema": {
@@ -183,7 +194,7 @@
             }
           },
           "404": {
-            "description": "Error occuried if job won't be found",
+            "description": "Error occurs when job cannot be found",
             "content": {
               "application/json": {
                 "schema": {
@@ -193,7 +204,176 @@
             }
           },
           "500": {
-            "description": "Error occuried on backend side, try again later",
+            "description": "Error occurred on backend side, try again later",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "mvp-apiAuthorizer": []
+          }
+        ]
+      }
+    },
+    "/callbacks": {
+      "description": "Callbacks",
+      "post": {
+        "tags": [
+          "callbacks"
+        ],
+        "description": "Create new callback",
+        "responses": {
+          "200": {
+            "description": "Success will return jobID and callbackURL of updated job",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "jobID": {
+                          "description": "Updated job Id",
+                          "type": "string"
+                        },
+                        "callbackURL": {
+                          "description": " defined for a job",
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "204": {
+            "description": "If no callbackURL change needed, will return jobID and callbackURL of updated job",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "jobID": {
+                          "description": "Updated job Id",
+                          "type": "string"
+                        },
+                        "callbackURL": {
+                          "description": " defined for a job",
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error occurred if json request is invalid",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error occurred if order does not exists",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "description": "Request body to create new callback for a job.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "status": {
+                    "type": "string",
+                    "default": "success"
+                  },
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "jobID": {
+                        "description": "Updated job Id",
+                        "type": "string"
+                      },
+                      "callbackURL": {
+                        "description": "defined for a job",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "mvp-apiAuthorizer": []
+          }
+        ]
+      }
+    },
+    "/devices": {
+      "description": "Devices",
+      "get": {
+        "tags": [
+          "devices"
+        ],
+        "description": "Get available mobile devices",
+        "responses": {
+          "200": {
+            "description": "Success will return deviceID by device data object",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error occurs if no available mobile devices or mobile devices were found",
             "content": {
               "application/json": {
                 "schema": {
@@ -223,6 +403,10 @@
           "message": {
             "type": "string",
             "description": "Human readable message about error"
+          },
+          "data": {
+            "type": "object",
+            "description": "Additional error data"
           }
         }
       }
