@@ -6,11 +6,6 @@
     },
     {
       "type": "item",
-      "title": "Creating the account",
-      "uri": "docs/Getting Started/Creating the account.md"
-    },
-    {
-      "type": "item",
       "title": "Signing up",
       "uri": "docs/Getting Started/Signing up.md"
     },
@@ -18,11 +13,6 @@
       "type": "item",
       "title": "Supported Technologies",
       "uri": "docs/Getting Started/Supported Technologies.md"
-    },
-    {
-      "type": "item",
-      "title": "Users and Roles",
-      "uri": "docs/Getting Started/Users and Roles.md"
     },
     {
       "type": "divider",
