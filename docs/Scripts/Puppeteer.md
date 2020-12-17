@@ -88,5 +88,6 @@ The output is displayed in JSON format. Write the script according to the exampl
 ```java
 return {created: true, taskTitle: inputParameters.taskTitle};
 ```
+> **Notice**, the platform currently supports only **string** as allowable task output value.
 
 The output of the executed tasks in the workflow (job) is displayed on the PowerFarm platform in the job’s details (job’s results). 

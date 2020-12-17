@@ -213,10 +213,10 @@ public void prepareJson() {
        driver.close();
 ```
 
+> **Notice**, the platform currently supports only **string** as allowable task output value.
+
 The output of the executed tasks in the workflow (job) is displayed on the PowerFarm platform in the job’s details (job’s results). 
 
 
-## ChromeDriver location
-If you run your tests locally include the ChromeDriver location in your PATH environment variable.
-Set the Chrome options as on the screen.
+
 

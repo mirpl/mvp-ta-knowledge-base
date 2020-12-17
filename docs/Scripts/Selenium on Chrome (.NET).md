@@ -269,6 +269,7 @@ passing the argument from the previously executed task; it is not seen in the de
 
 ### Output
 The output is set as a JASON Object.
+
 ```java
                JObject json = new JObject(
                    new JProperty("timestamp", "now"));
@@ -282,6 +283,6 @@ The output is set as a JASON Object.
               
                Environment.SetEnvironmentVariable("output", $"{{'targetURL':'{outputTargetURL}','title':'{outputTitle}'}}");
 ```               
-
+> **Notice**, the platform currently supports only **string** as allowable task output value.
 
 It is displayed on the PowerFarm platform in the job results window.
