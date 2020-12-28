@@ -35,7 +35,7 @@
     },
     {
       "type": "divider",
-      "title": "Using the Platform"
+      "title": "Using-the-Platform"
     },
     {
       "type": "group",
@@ -44,22 +44,22 @@
         {
           "type": "item",
           "title": "Dashboard",
-          "uri": "docs/Using the Platform/General info and navigation/Dashboard.md"
+          "uri": "docs/Using-the-Platform/General info and navigation/Dashboard.md"
         },
         {
           "type": "item",
           "title": "Files",
-          "uri": "docs/Using the Platform/General info and navigation/Files.md"
+          "uri": "docs/Using-the-Platform/General info and navigation/Files.md"
         },
         {
           "type": "item",
           "title": "Global Arguments",
-          "uri": "docs/Using the Platform/General info and navigation/Global-Arguments.md"
+          "uri": "docs/Using-the-Platform/General info and navigation/Global-Arguments.md"
         },
         {
           "type": "item",
           "title": "Onboarding",
-          "uri": "docs/Using the Platform/General info and navigation/Onboarding.md"
+          "uri": "docs/Using-the-Platform/General info and navigation/Onboarding.md"
         }
       ]
     },
@@ -70,17 +70,17 @@
         {
           "type": "item",
           "title": "Job details",
-          "uri": "docs/Using the Platform/Jobs/Job-details.md"
+          "uri": "docs/Using-the-Platform/Jobs/Job-details.md"
         },
         {
           "type": "item",
           "title": "Jobs - create and edit",
-          "uri": "docs/Using the Platform/Jobs/Jobs-create-and-edit.md"
+          "uri": "docs/Using-the-Platform/Jobs/Jobs-create-and-edit.md"
         },
         {
           "type": "item",
           "title": "List of Jobs - navigation",
-          "uri": "docs/Using the Platform/Jobs/List-of-Jobs-navigation.md"
+          "uri": "docs/Using-the-Platform/Jobs/List-of-Jobs-navigation.md"
         }
       ]
     },
@@ -91,12 +91,12 @@
         {
           "type": "item",
           "title": "Schedule details",
-          "uri": "docs/Using the Platform/Schedule/Schedule-details.md"
+          "uri": "docs/Using-the-Platform/Schedule/Schedule-details.md"
         },
         {
           "type": "item",
           "title": "Schedules and Triggers",
-          "uri": "docs/Using the Platform/Schedule/Schedules-and-Triggers.md"
+          "uri": "docs/Using-the-Platform/Schedule/Schedules-and-Triggers.md"
         }
       ]
     },
@@ -107,27 +107,27 @@
         {
           "type": "item",
           "title": "Access Token",
-          "uri": "docs/Using the Platform/Settings/Access-Token.md"
+          "uri": "docs/Using-the-Platform/Settings/Access-Token.md"
         },
         {
           "type": "item",
           "title": "Application Settings",
-          "uri": "docs/Using the Platform/Settings/Application-Settings.md"
+          "uri": "docs/Using-the-Platform/Settings/Application-Settings.md"
         },
         {
           "type": "item",
           "title": "Personal Settings",
-          "uri": "docs/Using the Platform/Settings/Personal-Settings.md"
+          "uri": "docs/Using-the-Platform/Settings/Personal-Settings.md"
         },
         {
           "type": "item",
           "title": "Repositories",
-          "uri": "docs/Using the Platform/Settings/Repositories.md"
+          "uri": "docs/Using-the-Platform/Settings/Repositories.md"
         },
         {
           "type": "item",
           "title": "Users",
-          "uri": "docs/Using the Platform/Settings/Users.md"
+          "uri": "docs/Using-the-Platform/Settings/Users.md"
         }
       ]
     },
@@ -138,12 +138,12 @@
         {
           "type": "item",
           "title": "List of Test Plan - navigation",
-          "uri": "docs/Using the Platform/Test Plan/List-of-Test-Plans-navigation.md"
+          "uri": "docs/Using-the-Platform/Test Plan/List-of-Test-Plans-navigation.md"
         },
         {
           "type": "item",
           "title": "Test Plans - create and edit",
-          "uri": "docs/Using the Platform/Test Plan/Test-Plan-create-and-edit.md"
+          "uri": "docs/Using-the-Platform/Test Plan/Test-Plan-create-and-edit.md"
         }
       ]
     },
@@ -154,12 +154,12 @@
         {
           "type": "item",
           "title": "List of Tests - navigation",
-          "uri": "docs/Using the Platform/Tests/List-of-Tests-navigation.md"
+          "uri": "docs/Using-the-Platform/Tests/List-of-Tests-navigation.md"
         },
         {
           "type": "item",
           "title": "Tests - create and edit",
-          "uri": "docs/Using the Platform/Tests/Test-create-and-edit.md"
+          "uri": "docs/Using-the-Platform/Tests/Test-create-and-edit.md"
         }
       ]
     },
