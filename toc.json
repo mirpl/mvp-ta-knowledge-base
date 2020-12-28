@@ -39,27 +39,27 @@
     },
     {
       "type": "group",
-      "title": "General info and navigation",
+      "title": "General-info-and-navigation",
       "items": [
         {
           "type": "item",
           "title": "Dashboard",
-          "uri": "docs/Using-the-Platform/General info and navigation/Dashboard.md"
+          "uri": "docs/Using-the-Platform/General-info-and-navigation/Dashboard.md"
         },
         {
           "type": "item",
           "title": "Files",
-          "uri": "docs/Using-the-Platform/General info and navigation/Files.md"
+          "uri": "docs/Using-the-Platform/General-info-and-navigation/Files.md"
         },
         {
           "type": "item",
           "title": "Global Arguments",
-          "uri": "docs/Using-the-Platform/General info and navigation/Global-Arguments.md"
+          "uri": "docs/Using-the-Platform/General-info-and-navigation/Global-Arguments.md"
         },
         {
           "type": "item",
           "title": "Onboarding",
-          "uri": "docs/Using-the-Platform/General info and navigation/Onboarding.md"
+          "uri": "docs/Using-the-Platform/General-info-and-navigation/Onboarding.md"
         }
       ]
     },
@@ -133,17 +133,17 @@
     },
     {
       "type": "group",
-      "title": "Test Plan",
+      "title": "Test-Plan",
       "items": [
         {
           "type": "item",
           "title": "List of Test Plan - navigation",
-          "uri": "docs/Using-the-Platform/Test Plan/List-of-Test-Plans-navigation.md"
+          "uri": "docs/Using-the-Platform/Test-Plan/List-of-Test-Plans-navigation.md"
         },
         {
           "type": "item",
           "title": "Test Plans - create and edit",
-          "uri": "docs/Using-the-Platform/Test Plan/Test-Plan-create-and-edit.md"
+          "uri": "docs/Using-the-Platform/Test-Plan/Test-Plan-create-and-edit.md"
         }
       ]
     },
