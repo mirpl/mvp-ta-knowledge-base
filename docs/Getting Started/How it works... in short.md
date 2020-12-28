@@ -4,7 +4,7 @@ Since you already know how to create the account and sign up, for sure, you anti
 
 First, check out the diagram, depicting its general logic. 
 
-![BL](../../../assets/images/BasicFlow.jpg)
+![BL](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/images/BasicFlow-2.jpg?raw=true)
 
 Looks simple, right? In case you not entirely understand how this flow goes, read the short step-by-step description:
 
