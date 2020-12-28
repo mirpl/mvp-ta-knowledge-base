@@ -268,7 +268,7 @@ passing the argument from the previously executed task; it is not seen in the de
 
 
 ### Output
-The output is set as a JASON Object.
+The output is set as a JSON Object.
 
 ```java
                JObject json = new JObject(
