@@ -1,6 +1,5 @@
 # Signing up
 
-
 The user receives an email with an invitation and token (CTA) and clicks the link to be redirected to below view:
 
 <!-- theme: warning -->
