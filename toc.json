@@ -6,13 +6,8 @@
     },
     {
       "type": "item",
-      "title": "Signing up",
-      "uri": "docs/Getting Started/Signing up.md"
-    },
-    {
-      "type": "item",
-      "title": "Supported Technologies",
-      "uri": "docs/Getting Started/Supported Technologies.md"
+      "title": "How it works... in short",
+      "uri": "docs/Getting Started/How it works... in short.md"
     },
     {
       "type": "divider",
@@ -63,11 +58,6 @@
         },
         {
           "type": "item",
-          "title": "How it works... in short",
-          "uri": "docs/Using the Platform/General info and navigation/How it works... in short.md"
-        },
-        {
-          "type": "item",
           "title": "Onboarding",
           "uri": "docs/Using the Platform/General info and navigation/Onboarding.md"
         }
@@ -77,11 +67,6 @@
       "type": "group",
       "title": "Jobs",
       "items": [
-        {
-          "type": "item",
-          "title": "Errors",
-          "uri": "docs/Using the Platform/Jobs/Errors.md"
-        },
         {
           "type": "item",
           "title": "Job details",
