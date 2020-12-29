@@ -10,6 +10,11 @@
       "uri": "docs/Getting Started/How it works... in short.md"
     },
     {
+      "type": "item",
+      "title": "Onboarding",
+      "uri": "docs/Getting Started/Onboarding.md"
+    },
+    {
       "type": "divider",
       "title": "Scripts"
     },
@@ -55,11 +60,6 @@
           "type": "item",
           "title": "Global Arguments",
           "uri": "docs/Using-the-Platform/General-info-and-navigation/Global-Arguments.md"
-        },
-        {
-          "type": "item",
-          "title": "Onboarding",
-          "uri": "docs/Using-the-Platform/General-info-and-navigation/Onboarding.md"
         }
       ]
     },
