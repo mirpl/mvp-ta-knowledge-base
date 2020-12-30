@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "mvp-API",
-    "version": "2020-12-18 08:56:23.059687",
+    "version": "2020-12-30 09:55:34.176643",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -126,6 +126,14 @@
                               "type": "string"
                             }
                           }
+                        },
+                        "inputParameters": {
+                          "type": "object",
+                          "description": "map of parameter name by parameter value - provided automatically if using `globalArguments`"
+                        },
+                        "secretParameters": {
+                          "type": "object",
+                          "description": "map of parameter name by parameter ID - provided automatically if using `globalArguments`"
                         }
                       }
                     }
@@ -378,6 +386,41 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "mvp-apiAuthorizer": []
+          }
+        ]
+      }
+    },
+    "/global-arguments": {
+      "description": "Global Arguments",
+      "get": {
+        "tags": [
+          "global-arguments"
+        ],
+        "description": "Get available global arguments",
+        "responses": {
+          "200": {
+            "description": "Success will return global argument ID by global argument name, author and created date in unix millisecond format",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
                 }
               }
             }
