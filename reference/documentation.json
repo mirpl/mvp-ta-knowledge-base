@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "mvp-API",
+    "title": "API",
     "version": "2020-10-13T08:32:55Z",
     "description": "Powerfarm API documentation",
     "contact": {
