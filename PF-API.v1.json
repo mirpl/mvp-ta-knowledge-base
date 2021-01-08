@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "mvp-API",
-    "version": "2020-12-23 11:04:01.637180",
+    "title": "API",
+    "version": "2021-01-08 09:19:36.187301",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
