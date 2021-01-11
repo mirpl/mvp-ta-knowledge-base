@@ -6,10 +6,16 @@ This is the space where you can integrate external platforms with PowerFarm and 
 
 ## Integrations
 
+### Jira
+
 ![aplsett1](../../../assets/images6/aplsettings1.jpg)
 
 
 ![applsett2](../../../assets/images6/aplsettings2.jpg)
+
+### Jenkins
+
+
 
 ## Billings and Plans
 
