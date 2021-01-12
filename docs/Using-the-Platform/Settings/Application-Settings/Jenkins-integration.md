@@ -43,3 +43,7 @@ Provide following data:
 
 - **Job ID** - Enter jobID which you want read. You can use ${PF_JOB_ID} as value to use last job created in Jenkins.
 - **Token** - generate new [Access Token](https://docs.powerfarm.ai/docs/mvp-ta-knowledge-base/docs/Using-the-Platform/Settings/Access-Token.md) at Settings in the platform.
+
+## ***Powerfarm Pipeline*** 
+
+Go to your projects, and click the 'Powerfarm Pipeline'. Next, choose 'Configuration' option, and scroll dow to the 'Pipeline' section to provide respective pipeline script. 
