@@ -27,3 +27,19 @@ You need to set up two steps:
 
 1. Create Job
 2. Get Job Status
+
+### Create Job
+
+Provide following data:
+
+- **Workflow ID** - Enter in Workflow and copy ID from URL. e.g. for workflow https://powerfarm.ai/mir-mvp/workflows/details/-MJaLOz8B4R8ANSGIwOh you should use -MJaLOz8B4R8ANSGIwOh as jobID.
+- **Created by** - displayed as creator of job in Powerfarm platform.
+- **Token** - generate new [Access Token](https://docs.powerfarm.ai/docs/mvp-ta-knowledge-base/docs/Using-the-Platform/Settings/Access-Token.md) at Settings in the platform.
+- **Job configuration JSON** - you can check it at [API documentation](https://docs.powerfarm.ai/docs/mvp-ta-knowledge-base/PF-API.v1.json/paths/~1jobs/post)
+
+### Get Job Status
+
+Provide following data:
+
+- **Job ID** - Enter jobID which you want read. You can use ${PF_JOB_ID} as value to use last job created in Jenkins.
+- **Token** - generate new [Access Token](https://docs.powerfarm.ai/docs/mvp-ta-knowledge-base/docs/Using-the-Platform/Settings/Access-Token.md) at Settings in the platform.
