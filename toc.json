@@ -110,9 +110,30 @@
           "uri": "docs/Using-the-Platform/Settings/Access-Token.md"
         },
         {
-          "type": "item",
-          "title": "Application Settings",
-          "uri": "docs/Using-the-Platform/Settings/Application-Settings.md"
+          "type": "group",
+          "title": "Application-Settings",
+          "items": [
+            {
+              "type": "item",
+              "title": "Application Settings",
+              "uri": "docs/Using-the-Platform/Settings/Application-Settings/Application-Settings.md"
+            },
+            {
+              "type": "item",
+              "title": "Billings-and-Plans",
+              "uri": "docs/Using-the-Platform/Settings/Application-Settings/Billings-and-Plans.md"
+            },
+            {
+              "type": "item",
+              "title": "Jenkins integration",
+              "uri": "docs/Using-the-Platform/Settings/Application-Settings/Jenkins-integration.md"
+            },
+            {
+              "type": "item",
+              "title": "Jira-integration",
+              "uri": "docs/Using-the-Platform/Settings/Application-Settings/Jira-integration.md"
+            }
+          ]
         },
         {
           "type": "item",
@@ -171,11 +192,6 @@
       "type": "item",
       "title": "mvp-API",
       "uri": "PF-API.v1.json"
-    },
-    {
-      "type": "item",
-      "title": "mvp-API",
-      "uri": "reference/documentation.json"
     }
   ]
 }
