@@ -21,7 +21,7 @@ Scroll to the 'Upload Pluggin', and choose a respective file.
 
 ## ***Freestyle Powerfarm Plugin usage***
 
-Go to your projects, and click the 'Freestyle Powerfarm Plugin usage'. Next, choose 'Configuration' option, and scroll dow to the 'Building' section. 
+Go to your projects, and click the 'Freestyle Powerfarm Plugin usage'. Next, choose 'Configuration' option, and scroll down to the 'Building' section. 
 
 You need to set up two steps:
 
@@ -46,4 +46,4 @@ Provide following data:
 
 ## ***Powerfarm Pipeline*** 
 
-Go to your projects, and click the 'Powerfarm Pipeline'. Next, choose 'Configuration' option, and scroll dow to the 'Pipeline' section to provide respective pipeline script. 
+Go to your projects, and click the 'Powerfarm Pipeline'. Next, choose 'Configuration' option, and scroll down to the 'Pipeline' section to provide respective pipeline script. 
