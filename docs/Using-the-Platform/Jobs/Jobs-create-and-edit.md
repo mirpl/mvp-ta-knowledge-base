@@ -12,11 +12,11 @@ You now know how to create Tests and Test Plans, but to start the actual experie
 There are two ways of creating a new Job. 
 1.  find the ‘Create Job’ button on the Test Plan list, next to every Test Plan.
 
-![job3](../../../assets/images3/job3.jpg)
+![job3](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/Jobscreate1.png?raw=true)
 
 2. open Test Plan's details and find the ‘Create Job’ button in the top right corner of the page. 
 
-![job2](../../../assets/images3/job2.jpg)
+![job2](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/jobscreate2.png?raw=true)
 
 Clicking the ‘Create Job’ button will open the form to fill in.
 
@@ -34,7 +34,7 @@ Filling in the ‘Create New Job’ form consists of four steps. A separate form
 
 The form of choosing the Test Version displays every Test added to the Test Plan. For each of them, select branch **1** along with commit you want to use for this Job.
 
-![job5](../../../assets/images3/job5.jpg)
+![job5](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/jobscreate3.png?raw=true)
 
 <!-- theme: warning -->
 >💡 **Remember**, if there were no commits in the Test, you cannot select Branch and Commit.
@@ -55,7 +55,7 @@ Confirm by clicking the 'Save ang go to Arguments collections' button **5**.
 
 In the second step, choose Global Arguments 💬 you want to add to this Job. If there are many arguments on the list, use the filter above it **1**, and click the ‘Save and go to Arguments’ button **2**. 
 
-![jobs6](../../../assets/images3/job6.jpg)
+![jobs6](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/jobscreate4.png?raw=true)
 
 <!-- theme: warning -->
 >💡 **Remember**, collections of Global Arguments are created in the [Global Arguments]() menu.
@@ -86,7 +86,7 @@ The form will be shut down and you will see the window confirming creating New J
 ‘Go back to job details/list’ **2** - reopens the Test Plan/List view (depends on which view you started creating Job with - Test Plan or List); 
 ‘Go to the Jobs Details’ **3** - takes you back to the Job detail view.
 
-![job9](../../../assets/images3/job9.jpg)
+![job9](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/jobscreate5.png?raw=true)
 
 >💡  **Notice**, the time to build a new job depends on whether the virtual machines are ready or need to be created; the time bar will be informing you of the progress.
 

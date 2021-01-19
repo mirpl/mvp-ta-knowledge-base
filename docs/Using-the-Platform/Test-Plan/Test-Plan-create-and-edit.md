@@ -12,11 +12,11 @@ Creating the Test Plan 💬  is another step in your adventure with PowerFarm. A
 
 Click the ‘Create new Test Plan' button on the top right corner of the screen to display the form to fill. 
 
-![tp2](../../../assets/images2/tp2.jpg)
+![tp2](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/TestPlanscreateandedit1.png?raw=true)
 
 For now, you only provide the Test Plan's name **1**, an optional description **2**, and choose a Parallel💬 checkbox **3** (in case it's not checked yet). Once you click the 'Create test plan' button **4**, your new Test Plan will appear on the list. 
 
-![tp3](../../../assets/images2/tp3.jpg)
+![tp3](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/TestPlanscreateandedit2.png?raw=true)
 
 
 >💬 Definition alert! 🔔

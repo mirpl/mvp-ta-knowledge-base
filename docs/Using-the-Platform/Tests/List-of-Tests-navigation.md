@@ -2,7 +2,7 @@
 
 The space with the list of all Tests allows to create a new Test, provides basic info about the Test, and lets find the Test you are searching for.
 
-![test6](../../../assets/images1/test6.jpg)
+![test6](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/ListofTestsnavigation.png?raw=true)
 
 
 1. Test name, at the same time, the link to the Test details.

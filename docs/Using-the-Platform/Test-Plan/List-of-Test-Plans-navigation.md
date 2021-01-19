@@ -2,7 +2,7 @@
 
 The space with the list of all Tests Plan allows to create a new Test Plan, create a new Job, provides basic info about the Test Plan,and lets find the Test Plan you are searching for.
 
-![test6](../../../assets/images2/tp7.jpg)
+![test6](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/TestPlannavigation.png?raw=true)
 
 
 1. Test Plan's name, at the same time, the link to the Test Plan's details.

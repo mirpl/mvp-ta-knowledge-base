@@ -4,7 +4,7 @@ Curious about the results of your so-far work? Of course, you are 😉
 
 Go to the Jobs list and check out what it displays.
 
-![job10](../../../assets/images3/job10.jpg)
+![job10](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/Jobsnavigation.png?raw=true)
 
 1. ID - the unique Job ID, set by the system
 2. Test Plan name - the one you entered while creating the Test Plan

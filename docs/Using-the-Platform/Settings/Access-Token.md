@@ -10,11 +10,11 @@ Adding new token is very easy - click the 'Access Token' button on the left pane
 
 and fill the form that will be displayed, enter its name and confirm by clicking the 'Create Access Token' button.
 
-![create](../../../assets/images/AccessTokenCreate.jpg)
+![create](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/AccessToken1.png?raw=true)
 
 Once the token is generatet, copy it and use as you need. 
 
-![copy](../../../assets/images/AccessTokencopy.jpg)
+![copy](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/AccessToken2.png?raw=true)
 
 <!-- theme: warning -->
 >**Remember**, you need to copy your token right after creating it, otherwise you won't be able to access it again. 
@@ -25,8 +25,8 @@ And that's it!
 
 To remove your token, klick the 'Revoke' button next to your token.
 
-![revoke](../../../assets/images/AccessTokenRevoke1.jpg)
+![revoke](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/AccessToken3.png?raw=true)
 
 The system will ask you to confirm this action.
 
-![r1](../../../assets/images/AccessTokenRevoke.jpg)
+![r1](https://github.com/mirpl/mvp-ta-knowledge-base/blob/master/assets/Images7/AccessToken4.png?raw=true)
