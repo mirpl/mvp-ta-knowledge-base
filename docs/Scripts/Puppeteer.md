@@ -7,7 +7,8 @@ The example used to describe the Puppeteer technology contains one test Puppetee
 The following script was used to create this task:
 
 ```java
-{  module.exports = async function browser, {inputParameters, previousResult}) {
+{  
+module.exports = async function browser, {inputParameters, previousResult}) {
    const page = await browser.newPage();
    await page.goto(inputParameters.testTargetUrl);
    // console.log(await page.content());
@@ -82,6 +83,9 @@ await page.screenshot({path: process.env.SCREENSHOTS_PATH + '/' + 'screenshot.pn
 ```
 
 The screenshots are displayed and can be downloaded in the Job results window.
+
+<!-- theme: warning -->
+> 💡 **Remember**, don't make variables for those as static as they are set with values during the first compilation, so they will not activate when they are called again. Thus, new paths for each job will be wrong for these subsequent robot calls - there is a risk, for example, that the job results will not include screenshots attachments.
 
 ## Output
 The output is displayed in JSON format. Write the script according to the example:

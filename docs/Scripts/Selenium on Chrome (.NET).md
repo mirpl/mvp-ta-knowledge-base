@@ -205,6 +205,10 @@ and
 
 ## Environment variables
 Both artifacts and parameters are taken from the environment variables. 
+
+<!-- theme: warning -->
+> 💡 **Remember**, don't make variables as static as they are set with values during the first compilation, so they will not activate when they are called again. Thus, new paths for each job will be wrong for these subsequent robot calls - there is a risk, for example, that the job results will not include screenshots attachments.
+
 ### Artifacts (Screenshots)
 Set the command to take the screenshots as in the example below.
 ```java
