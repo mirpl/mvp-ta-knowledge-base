@@ -59,9 +59,9 @@ You can copy the file path in your repository by clicking the ‘Copy path’ bu
 
 ## Script details
 
-### Chromedriver setup
+### ChromeDriver setup
 
-To set the details for your Chromedriver, use the following commands:
+To set the details for your ChromeDriver, use the following commands:
 
 ```c
 // setting chromedriver and chrome
