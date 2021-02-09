@@ -58,7 +58,12 @@ In the `Bots` file, there is a bot implemented, which will be used to build a Te
 <!-- theme: warning -->
 >💡 **Remember** to ensure that your repository is added to the list at the [Repositories](Repositories.md) on the PowerFarm platform.
 
-Choose your repository while creating a new Test, and paste the respective script path from it. 
+Choose your repository while creating a new Test on the platform **[1]**, and paste the respective script path from it **[2]**.
+
+![test](../../assets/images1/test7.png)
+
+> **Notice** - if your don't provide the path to the bot's script, the created Test will contain all commits from the project.
+
 
 Once the Test has been created, you can copy the repository path from the Test's details.
 
