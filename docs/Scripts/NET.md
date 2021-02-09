@@ -47,6 +47,12 @@ namespace example_client
 ```
 ## Script path
 
+Create a respective file in your repository to store your project, as it is depicted on the example - `src` file. 
+
+![project](../../assets/imeges8/projektGH.png)
+
+
+
 <!-- theme: warning -->
 >💡 **Remember** to ensure that your repository is added to the list at the [Repositories](Repositories.md) on the PowerFarm platform.
 
