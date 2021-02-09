@@ -48,7 +48,7 @@ namespace example_client
 ## Script path
 
 <!-- theme: warning -->
->💡 **Remember** to ensure that your repository is added to the list at the Repository Addresses on the PowerFarm platform.
+>💡 **Remember** to ensure that your repository is added to the list at the [Repositories](Repositories.md) on the PowerFarm platform.
 
 Choose your repository while creating a new Test, and paste the respective script path from it. 
 
