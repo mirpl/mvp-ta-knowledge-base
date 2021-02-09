@@ -67,6 +67,8 @@ Choose your repository while creating a new Test on the platform **[1]**, and pa
 
 Once the Test has been created, you can copy the repository path from the Test's details.
 
+![test1](../../assets/images1/test8.png)
+
 
 
 ## Script details
