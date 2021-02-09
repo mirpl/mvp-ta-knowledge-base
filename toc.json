@@ -20,6 +20,11 @@
     },
     {
       "type": "item",
+      "title": ".NET",
+      "uri": "docs/Scripts/NET.md"
+    },
+    {
+      "type": "item",
       "title": "Puppeteer",
       "uri": "docs/Scripts/Puppeteer.md"
     },
@@ -120,7 +125,7 @@
             },
             {
               "type": "item",
-              "title": "Billings-and-Plans",
+              "title": "Billings and Plans",
               "uri": "docs/Using-the-Platform/Settings/Application-Settings/Billings-and-Plans.md"
             },
             {
@@ -130,7 +135,7 @@
             },
             {
               "type": "item",
-              "title": "Jira-integration",
+              "title": "Jira integration",
               "uri": "docs/Using-the-Platform/Settings/Application-Settings/Jira-integration.md"
             }
           ]
