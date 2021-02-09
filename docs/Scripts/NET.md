@@ -81,12 +81,12 @@ To set the details for your Chromedriver, use the following commands:
 
             IWebDriver driver = new ChromeDriver(chromeOptions);
 ```
-## Environment variables
+### Environment variables
 Both artifacts and parameters are taken from the environment variables. 
 
 The screenshots - if taken - are displayed and can be downloaded in the Job results window.
 
-### Parameters
+#### **Parameters**
 
 There are three possible parameters you can add to your script:
 1. `secretParameter` - encrypted arguments
