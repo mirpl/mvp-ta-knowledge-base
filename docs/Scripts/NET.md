@@ -49,7 +49,7 @@ namespace example_client
 
 Create a respective file in your repository to store your project, as it is depicted on the example - `src` file. 
 
-![project](../../assets/imeges8/projektGH.png)
+![project](p../../assets/imeges8/projektGH.png)
 
 
 
