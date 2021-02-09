@@ -47,11 +47,13 @@ namespace example_client
 ```
 ## Script path
 
-Create a respective file in your repository to store your project, as it is depicted on the example - `src` file. 
+Create a respective file in your repository to store your **project's** components, as it is depicted on the example - `src` file. 
 
-![project](p../../assets/imeges8/projektGH.png)
+![project](../../assets/imeges8/projektGH.png)
 
+In the `Bots` file, there is a bot implemented, which will be used to build a Test:
 
+![bot](../../assets/imeges8/testGH.png)
 
 <!-- theme: warning -->
 >💡 **Remember** to ensure that your repository is added to the list at the [Repositories](Repositories.md) on the PowerFarm platform.
@@ -60,7 +62,6 @@ Choose your repository while creating a new Test, and paste the respective scrip
 
 Once the Test has been created, you can copy the repository path from the Test's details.
 
-You can copy the file path in your repository by clicking the ‘Copy path’ button.
 
 
 ## Script details
