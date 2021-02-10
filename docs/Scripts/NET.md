@@ -51,7 +51,7 @@ Create a respective file in your repository to store your **project's** componen
 
 ![project](../../assets/imeges8/projektGH.png)
 
-In the `Bots` file, there is a bot implemented, which will be used to build a Test:
+In the `Bots` folder, there is a bot implemented, which will be used to build a Test:
 
 ![bot](../../assets/imeges8/testGH.png)
 
