@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "mvp-API",
-    "version": "2020-12-30 09:55:34.176643",
+    "title": "API",
+    "version": "2021-02-18 09:03:08.596851",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -61,7 +61,7 @@
             }
           },
           "404": {
-            "description": "Error occurred if workflow/process/technology not exists",
+            "description": "Error occurred if workflow/task/technology not exists",
             "content": {
               "application/json": {
                 "schema": {
@@ -85,36 +85,36 @@
                   "workflowID": {
                     "type": "string"
                   },
+                  "tasksDefaultGitRef": {
+                    "type": "string",
+                    "description": "will be used as default value for tasks.gitRef if not given. You can specify commit hash, latest branch commit using 'branch/master' or tag commit using 'tag/release1.0'"
+                  },
                   "jobID": {
                     "type": "string",
                     "description": "if given, rerun of this job will be created with a given author, and other fields will be ignored"
                   },
                   "globalArguments": {
                     "type": "array",
-                    "description": "array of IDs of Global Arguments which will be passed to job tasks"
+                    "description": "array of IDs of Global Arguments which will be passed to job tasks",
+                    "items": {
+                      "type": "string"
+                    }
                   },
-                  "jobsConfiguration": {
-                    "description": "You have to attach configuration for every process in workflow. Otherwise error 'bad request' will be returned.",
+                  "tasks": {
+                    "description": "used to specify deviceConfiguration, inputParameters, secretParameters and gitRef for task. gitRef override tasksDefaultGitRef value for current task.",
                     "type": "array",
                     "items": {
                       "type": "object",
                       "properties": {
-                        "codeVersion": {
+                        "taskID": {
                           "type": "string"
                         },
-                        "processID": {
-                          "type": "string"
-                        },
-                        "gitReferenceType": {
-                          "description": "Allowed values: 'branch', 'commit', 'tag'",
-                          "type": "string"
-                        },
-                        "gitReferenceName": {
+                        "gitRef": {
                           "type": "string"
                         },
                         "deviceConfiguration": {
                           "type": "object",
-                          "description": "Only for mobile jobs",
+                          "description": "only for mobile jobs",
                           "properties": {
                             "OS": {
                               "type": "string"
