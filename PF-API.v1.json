@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "API",
-    "version": "2021-02-18 09:03:08.596851",
+    "version": "2021-03-02 14:34:34.362411",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -148,6 +148,65 @@
             "mvp-apiAuthorizer": []
           }
         ]
+      },
+      "get": {
+        "tags": [
+          "Jobs"
+        ],
+        "description": "List jobs",
+        "responses": {
+          "200": {
+            "400": {
+              "description": "Error occurred if json request is invalid",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ErrorResponse"
+                  }
+                }
+              }
+            },
+            "description": "Success will return last 100 created jobs and their state",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "default": "success"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "description": "Job ID",
+                            "type": "string"
+                          },
+                          "state": {
+                            "description": "Job state",
+                            "type": "string"
+                          },
+                          "createdAt": {
+                            "description": "Job createdAt date in epoch",
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "security": [
+            {
+              "mvp-apiAuthorizer": []
+            }
+          ]
+        }
       }
     },
     "/jobs/{jobId}/status": {
