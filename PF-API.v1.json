@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "API",
-    "version": "2021-03-12 11:35:01.418681",
+    "version": "2021-03-12 11:52:39.777366",
     "description": "Powerfarm API documentation",
     "contact": {
       "email": "saas-admin@makeitirght.ai",
@@ -305,7 +305,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success returns job artifacts",
+            "description": "Success returns job artifacts by jobs",
             "content": {
               "application/json": {
                 "schema": {
